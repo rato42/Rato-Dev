@@ -15,7 +15,7 @@ local magazineData = {
         extended_custom_icon = 'Mod/Dau6w/Images/usp_mag_ex.png'
     }, {
         id = "VikingMP446_1",
-        magsize = 12,
+        magsize = 10,
         mag_mod = "MagNormal",
         ancestor_id = "GlockMagazine",
         generate_extended = true
@@ -45,12 +45,15 @@ local magazineData = {
         id = "P08_1",
         magsize = 8,
         mag_mod = "MagNormal",
-        ancestor_id = "GlockMagazine"
+        ancestor_id = "GlockMagazine",
+        generate_extended = true
     }, {
         id = "M1911_1",
         magsize = 7,
         mag_mod = "MagNormal",
-        ancestor_id = "DesertEagleMagazine"
+        ancestor_id = "DesertEagleMagazine",
+        generate_extended = true,
+        extended_custom_icon = 'Mod/Dau6w/Images/M1911_Mag_ext.png'
     }, {
         id = "M76_1",
         magsize = 10,
@@ -66,7 +69,8 @@ local magazineData = {
         magsize = 20,
         mag_mod = "MagNormal",
         ancestor_id = "UZIMagazine",
-        generate_extended = true
+        generate_extended = true,
+        extended_custom_icon = 'Mod/Dau6w/Images/MicroUZI_Mag_ext.png'
     }, {
         id = "PP91_1",
         magsize = 20,
@@ -88,7 +92,8 @@ local magazineData = {
         magsize = 5,
         mag_mod = "MagNormal",
         ancestor_id = "SVDMagazine",
-        custom_icon = 'Mod/KKh3Yhf/Images/SSG69_Mag_def_icon.png'
+        custom_icon = 'Mod/KKh3Yhf/Images/SSG69_Mag_def_icon.png',
+        generate_extended = true
     },
     -- { id = "HK23ECamo_1", magsize = 100, mag_mod = "MagLarger", ancestor_id = "HKG3MagazineLarger" },
     {
@@ -123,6 +128,35 @@ local magazineData = {
     }
 }
 
+function check_expandedmag()
+    for _, entry in pairs(magazineData) do
+        -- print(entry.id)
+        local w = g_Classes[entry.id]
+
+        -- print("weapon", w and true or false)
+        local slots = w.ComponentSlots
+        -- print("slots", slots and true or false)
+        local comp
+        for i, slot in ipairs(slots) do
+            if slot.SlotType == "Magazine" then
+                comp = slot
+                break
+            end
+        end
+        local ext_mag_id
+        if comp then
+            for i, v in ipairs(comp.AvailableComponents) do
+                if string.find(v, "ext") then
+                    ext_mag_id = v
+                    break
+                end
+            end
+        end
+
+        print(entry.id, ext_mag_id)
+    end
+end
+
 local function BuildMagazineItemRATRVE(id, magsize, mag_mod, ancestor_id,
                                        custom_icon, shared_weapons_id_table,
                                        generate_extended, extended_custom_icon,
@@ -146,16 +180,16 @@ local function BuildMagazineItemRATRVE(id, magsize, mag_mod, ancestor_id,
 
     local mag_comp = WeaponComponents[df_mag_id]
 
-    local function get_entity_and_icon(mag_comp, custom_icon_override)
+    local function get_entity_and_icon(component, custom_icon_override)
         local entity, icon
-        local visual = mag_comp.Visuals[table.find(mag_comp.Visuals, "ApplyTo",
-                                                   id)]
+        local visual = component.Visuals[table.find(component.Visuals,
+                                                    "ApplyTo", id)]
         if visual then
             entity = visual.Entity
             icon = visual.Icon
         end
 
-        if not icon or icon == "" then icon = mag_comp.Icon end
+        if not icon or icon == "" then icon = component.Icon end
 
         if custom_icon_override then icon = custom_icon_override end
 
@@ -457,16 +491,17 @@ function rat_buildmags()
                                 RevMagWeaponSetup_table)
     end
 
-    print("function GBOTOG_RevMag_CreateMagazine()")
-    print("if not IsMod_loaded('URkxyfE') then return end")
-    for _, v in ipairs(InventoryItem_table) do print("		", v) end
-    print("end")
-
     -- Print the REV_SetupWeapon messages
     print("function OnMsg.RevisedMagPropsAddedToFirearms()")
     for _, setup_msg in ipairs(RevMagWeaponSetup_table) do
         print("		", setup_msg)
     end
+    print("end")
+
+    ------ Mag inventory Items
+    print("function GBOTOG_RevMag_CreateMagazine()")
+    print("if not IsMod_loaded('URkxyfE') then return end")
+    for _, v in ipairs(InventoryItem_table) do print("		", v) end
     print("end")
 
     -- Print the WeaponComponentVisual_table
@@ -481,13 +516,5 @@ function rat_buildmags()
 		RatTOG_RevMag_ApplyMap(map)
 	end]])
 
-end
-
-function printLBEprops(id)
-    local item = g_Classes[id]
-    for i, v in ipairs(item.properties) do
-
-        if v.category == "LBE" then print(v.id) end
-    end
 end
 

@@ -2,7 +2,7 @@ return PlaceObj('ModDef', {
 	'title', "Rato Dev",
 	'id', "WxLXvdc",
 	'author', "rato",
-	'version', 135,
+	'version', 144,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -13,7 +13,7 @@ return PlaceObj('ModDef', {
 		"Code/magazine_builder_2.lua",
 	},
 	'default_options', {},
-	'saved', 1732849313,
-	'code_hash', -8045531655790544566,
+	'saved', 1732853225,
+	'code_hash', 1181181773325098228,
 	'affected_resources', {},
 })
