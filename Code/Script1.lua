@@ -18,3 +18,8 @@ function OnMsg.ClassesGenerate(classdefs)
     last_thing = tuble
 end
 
+function InventoryItem:GetMaxCondition()
+
+	return InventoryItemDefs[self.class]:GetProperty("Condition")
+	bp()
+end

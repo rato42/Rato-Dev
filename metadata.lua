@@ -3,7 +3,7 @@ return PlaceObj('ModDef', {
 	'dependencies', {},
 	'id', "WxLXvdc",
 	'author', "rato",
-	'version', 336,
+	'version', 347,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -17,9 +17,11 @@ return PlaceObj('ModDef', {
 		"Code/FirearmExec_debug.lua",
 		"Code/fix_editor_enemysquads.lua",
 		"Code/Script1.lua",
+		"Code/Script2.lua",
+		"Code/Script3.lua",
 	},
 	'default_options', {},
-	'saved', 1733177678,
-	'code_hash', 6730613354227390709,
+	'saved', 1733205928,
+	'code_hash', 7634889192610280816,
 	'affected_resources', {},
 })

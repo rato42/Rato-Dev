@@ -38,4 +38,12 @@ return {
 		'name', "Script1",
 		'CodeFileName', "Code/Script1.lua",
 	}),
+	PlaceObj('ModItemCode', {
+		'name', "Script2",
+		'CodeFileName', "Code/Script2.lua",
+	}),
+	PlaceObj('ModItemCode', {
+		'name', "Script3",
+		'CodeFileName', "Code/Script3.lua",
+	}),
 }
