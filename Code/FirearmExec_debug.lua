@@ -1,5 +1,5 @@
 last_FA_results = {}
-local debug = true
+local debug = false
 
 function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
     last_FA_results = results
@@ -13,7 +13,8 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
     end
 
     NetUpdateHash("ExecFirearmAttacks", action, cost_ap, not not g_Combat)
-    local lof_idx = table.find(attack_args.lof, "target_spot_group", attack_args.target_spot_group or "Torso")
+    local lof_idx = table.find(attack_args.lof, "target_spot_group",
+                               attack_args.target_spot_group or "Torso")
     local lof_data = attack_args.lof[lof_idx or 1]
     local target = attack_args.target
     local target_unit = IsKindOf(target, "Unit") and IsValidTarget(target) and target
@@ -40,7 +41,9 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
         end
     end
 
-    local can_provoke_opportunity_attacks = not action or (action.id ~= "CancelShot" and action.id ~= "CancelShotCone")
+    local can_provoke_opportunity_attacks = not action or
+                                                (action.id ~= "CancelShot" and action.id ~=
+                                                    "CancelShotCone")
     if can_provoke_opportunity_attacks then
         self:ProvokeOpportunityAttacks(action, "attack interrupt")
     end
@@ -62,10 +65,12 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
             g_Combat:CheckPendingEnd(results.killed_units)
 
             local isKillCinematic
-            isKillCinematic, dontPlayForLocalPlayer = IsEnemyKillCinematic(self, results, attack_args)
+            isKillCinematic, dontPlayForLocalPlayer =
+                IsEnemyKillCinematic(self, results, attack_args)
             if isKillCinematic then
                 cameraTac.SetForceMaxZoom(false)
-                SetAutoRemoveActionCamera(self, results.killed_units[1], nil, nil, nil, nil, nil, dontPlayForLocalPlayer)
+                SetAutoRemoveActionCamera(self, results.killed_units[1], nil, nil, nil, nil, nil,
+                                          dontPlayForLocalPlayer)
                 cinematicKill = true
             end
         elseif interrupt then -- the attack is from enemy pindown or overwatch
@@ -76,14 +81,16 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
 			end--]]
         end
         if not cinematicKill and IsKindOf(target, "Unit") then
-            local cinematicAttack, interpolation = IsCinematicAttack(self, results, attack_args, action)
+            local cinematicAttack, interpolation =
+                IsCinematicAttack(self, results, attack_args, action)
             if cinematicAttack then
-                local playerUnit = (IsKindOf(target, "Unit") and target:IsLocalPlayerTeam() and target) or
-                                       (self:IsLocalPlayerTeam() and self)
+                local playerUnit = (IsKindOf(target, "Unit") and target:IsLocalPlayerTeam() and
+                                       target) or (self:IsLocalPlayerTeam() and self)
                 local enemyUnit = playerUnit and (playerUnit == target and self or target)
                 if playerUnit and enemyUnit then
                     SetAutoRemoveActionCamera(playerUnit, enemyUnit, false, false, false,
-                                              interpolation and default_interpolation_time, nil, dontPlayForLocalPlayer)
+                                              interpolation and default_interpolation_time, nil,
+                                              dontPlayForLocalPlayer)
                 end
             end
         end
@@ -114,7 +121,8 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
     end)
 
     local ap = (cost_ap and cost_ap > 0) and cost_ap or action:GetAPCost(self, attack_args)
-    table.insert(g_CurrentAttackActions, {action = action, cost_ap = ap, attack_args = attack_args, results = results})
+    table.insert(g_CurrentAttackActions,
+                 {action = action, cost_ap = ap, attack_args = attack_args, results = results})
 
     -- start anim, wait hit moment, apply ammo/condition results
     local chance_to_hit = results.chance_to_hit
@@ -151,14 +159,16 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
         return
     end
 
-    PushUnitAlert("noise", self, results.weapon.Noise, Presets.NoiseTypes.Default.Gunshot.display_name)
+    PushUnitAlert("noise", self, results.weapon.Noise,
+                  Presets.NoiseTypes.Default.Gunshot.display_name)
 
     local shot_threads = {}
 
     local attacks = results.attacks or {results}
     local attackArgs = results.attacks_args or {attack_args}
 
-    if results.shots and #results.shots > 8 and g_Combat and not g_Combat:ShouldEndCombat(results.killed_units) then
+    if results.shots and #results.shots > 8 and g_Combat and
+        not g_Combat:ShouldEndCombat(results.killed_units) then
         if (not results.killed_units or #results.killed_units == 1) then
             local vr = IsMerc(self) and "Autofire" or "AIAutofire"
             PlayVoiceResponse(self, vr)
@@ -270,31 +280,37 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
     base_weapon_damage = MulDivRound(base_weapon_damage, 120, 100)
     if attacks and next(attacks) then
         -- count shots fired per team for Voice Response
-        self.team.tactical_situations_vr.shotsFired = self.team.tactical_situations_vr.shotsFired and
-                                                          self.team.tactical_situations_vr.shotsFired + 1 or 1
-        self.team.tactical_situations_vr.shotsFiredBy = self.team.tactical_situations_vr.shotsFiredBy or {}
+        self.team.tactical_situations_vr.shotsFired =
+            self.team.tactical_situations_vr.shotsFired and
+                self.team.tactical_situations_vr.shotsFired + 1 or 1
+        self.team.tactical_situations_vr.shotsFiredBy =
+            self.team.tactical_situations_vr.shotsFiredBy or {}
         self.team.tactical_situations_vr.shotsFiredBy[self.session_id] = true
         PlayVoiceResponseTacticalSituation(table.find(g_Teams, self.team), "now")
         if missed then
 
             -- count missed shots per team for Voice Response
-            self.team.tactical_situations_vr.missedShots = self.team.tactical_situations_vr.missedShots and
-                                                               self.team.tactical_situations_vr.missedShots + 1 or 1
+            self.team.tactical_situations_vr.missedShots =
+                self.team.tactical_situations_vr.missedShots and
+                    self.team.tactical_situations_vr.missedShots + 1 or 1
             PlayVoiceResponseTacticalSituation(table.find(g_Teams, self.team), "now")
 
             if chance_to_hit >= 70 then
                 if not target_unit or not target_unit:IsCivilian() then
                     PlayVoiceResponseMissHighChance(self)
                 end
-            elseif target_unit and chance_to_hit >= 50 and base_weapon_damage >= target_unit:GetTotalHitPoints() then
+            elseif target_unit and chance_to_hit >= 50 and base_weapon_damage >=
+                target_unit:GetTotalHitPoints() then
                 if IsMerc(target_unit) then
                     target_unit:SetEffectValue("missed_by_kill_shot", true)
                 end
             end
         elseif not missed then
-            if results.stealth_kill and IsMerc(self) and results.killed_units and #results.killed_units > 0 then
+            if results.stealth_kill and IsMerc(self) and results.killed_units and
+                #results.killed_units > 0 then
 
-            elseif lowChanceShot and target_unit and not self:IsOnAllySide(target_unit) and not target_unit:IsCivilian() then
+            elseif lowChanceShot and target_unit and not self:IsOnAllySide(target_unit) and
+                not target_unit:IsCivilian() then
                 PlayVoiceResponse(self, "LowChanceShot")
             end
         end

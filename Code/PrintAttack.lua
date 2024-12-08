@@ -2,9 +2,11 @@ local debug = true
 last_results = false
 
 last_combat = {}
+last_combat_results = {}
 
 function OnMsg.CombatStarting()
     last_combat = {}
+    last_combat_results = {}
 end
 
 function OnMsg.CombatEnd()
@@ -18,19 +20,32 @@ function OnMsg.OnAttack(unit, action, target, results, attack_args)
     local insert_results = table.copy(results)
     local target_pos = target and target:GetPos()
     if target then
-        target_pos = IsValidZ(target_pos) or target_pos:SetTerrainZ()
+        target_pos = IsValidZ(target_pos) and target_pos or target_pos:SetTerrainZ()
     end
 
     local att_pos = results.attack_pos
     local dist = target_pos and att_pos:Dist(target_pos)
+    dist = dist / const.SlabSizeX
     insert_results.distance = dist
     insert_results.target_id = target.sesion_id
     insert_results.time = GameTime()
 
-    if not last_combat[unit.session_id] then
-        last_combat[unit.session_id] = {insert_results}
+    if not last_combat_results[unit.session_id] then
+        last_combat_results[unit.session_id] = {insert_results}
     else
-        table.insert(last_combat[unit.session_id], insert_results)
+        table.insert(last_combat_results[unit.session_id], insert_results)
+    end
+
+    if not last_combat[unit.session_id] then
+        last_combat[unit.session_id] = {
+            {['aim'] = insert_results.aim, ["dist"] = dist, ["wep"] = insert_results.weapon}
+        }
+    else
+        table.insert(last_combat[unit.session_id], {
+            ['aim'] = insert_results.aim,
+            ["dist"] = dist,
+            ["wep"] = insert_results.weapon
+        })
     end
 
     local info = {
