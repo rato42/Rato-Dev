@@ -10,11 +10,11 @@ function extract_prop()
         if type(value) == "number" or type(value) == "boolean" then
             return tostring(value)
         elseif type(value) == "string" then
-            return string.format('"%s"', value)
+            return string.format("'%s'", value)
         elseif value == nil then
-            return '""'
+            return "''"
         else
-            return '"[unsupported value type]"'
+            return "'[unsupported value type]'"
         end
     end
 
