@@ -19,6 +19,10 @@ return {
 			'CodeFileName', "Code/extract_functions.lua",
 		}),
 		PlaceObj('ModItemCode', {
+			'name', "extract_unit",
+			'CodeFileName', "Code/extract_unit.lua",
+		}),
+		PlaceObj('ModItemCode', {
 			'name', "fix_editor_enemysquads",
 			'CodeFileName', "Code/fix_editor_enemysquads.lua",
 		}),
@@ -42,5 +46,8 @@ return {
 	PlaceObj('ModItemCode', {
 		'name', "Script1",
 		'CodeFileName', "Code/Script1.lua",
+	}),
+	PlaceObj('ModItemCode', {
+		'CodeFileName', "Code/Script.lua",
 	}),
 }

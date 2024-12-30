@@ -1,0 +1,751 @@
+sep=,
+Wisdom,Randomization,role,object_class,Medical,MaxHitPoints,Marksmanship,Affiliation,id,Portrait,Leadership,CustomEquipGear,Health,Tier,VoiceResponseId,Dexterity,gender,pollyvoice,Mechanical,StartingLevel,neutral_retaliate,Agility,MaxAttacks,Explosives,unitPowerModifier,group,Strength,elite,Comment,eliteCategory,PickCustomArchetype,archetype,AlwaysUseOpeningAttack,BigPortrait,OpeningAttackType,PinnedDownChance,immortal,FallbackMissingVR,CanManEmplacements,body_type,species,RewardExperience,militia,PersistentSessionId,RepositionArchetype,dummy,reincarnate,SalaryMaxLv,HireStatus,Specialization,IsMercenary,SalaryLv1,infected,SalaryIncrease,StartingSalary,Nationality,MedicalDeposit,DurationDiscount,Haggling,LegacyNotes,ImportantNPC,RetreatBehavior,villain,DefeatBehavior,Lives,HealPersistentOnSpawn
+56,true,Soldier,UnitData,0,50,70,Adonis,AdonisAssault,UI/EnemiesPortraits/AdonisSoldier,50,function: 000002997150B8B0,75,Elite,AdonisAssault,75,Male,Joey,0,6,true,75,2,0,75,Adonis,85,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,70,Adonis,AdonisAssault_Elite,UI/EnemiesPortraits/AdonisSoldier,50,function: 000002997150C2C8,75,Elite,AdonisAssault,75,Male,Joey,50,6,true,75,2,39,,Adonis,85,true,+perks,Foreigners,function: 000002997150C2A0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Heavy,UnitData,52,50,90,Adonis,AdonisDedicatedGunner_Elite,UI/EnemiesPortraits/AdonisHeavy,50,,75,Elite,AdonisAssault,75,Male,Joey,50,6,true,85,4,39,,Adonis,95,true,+perks,Foreigners,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Artillery,UnitData,0,50,50,Adonis,AdonisDemolitions,UI/EnemiesPortraits/AdonisDemo,31,function: 0000029966557340,63,Veteran,AdonisAssault,,Male,Russell,0,6,true,72,2,50,75,Adonis,81,,,,function: 000002996B5011B8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Artillery,UnitData,34,50,50,Adonis,AdonisDemolitions_Elite,UI/EnemiesPortraits/AdonisDemo,31,function: 000002996B502770,,Veteran,AdonisAssault,,Male,Russell,50,6,true,72,2,80,,Adonis,90,true,"+EXPL, +STR",Foreigners,function: 000002996B502C70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+73,true,Recon,UnitData,0,50,70,Adonis,AdonisFlanker,UI/EnemiesPortraits/AdonisRecon,20,,70,Veteran,AdonisAssault,83,Male,Joey,0,3,true,81,2,0,75,Adonis,47,,,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Recon,UnitData,55,50,70,Adonis,AdonisFlanker_Elite,UI/EnemiesPortraits/AdonisRecon,20,,70,Veteran,AdonisAssault,83,Male,Joey,56,3,true,99,2,38,,Adonis,47,true,"+AP, +perks",Foreigners,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Heavy,UnitData,0,50,70,Adonis,AdonisHeavy,UI/EnemiesPortraits/AdonisHeavy,50,,70,Elite,AdonisAssault,75,Male,Joey,0,6,true,67,2,0,75,Adonis,95,,,,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+58,true,Medic,UnitData,93,80,66,Adonis,AdonisMedic,UI/EnemiesPortraits/AdonisMedic,58,,65,Elite,AdonisAssault,58,Male,Joey,41,7,true,91,1,39,65,Adonis,53,,,,,Medic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Artillery,UnitData,0,50,50,Adonis,AdonisMortar,UI/EnemiesPortraits/AdonisArtillery,31,function: 0000029967DBB050,50,Veteran,AdonisAssault,,Male,Russell,0,6,true,67,1,76,75,Adonis,99,,,,function: 0000029967DBA630,Artillery,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Marksman,UnitData,25,50,80,Adonis,AdonisSniper,UI/EnemiesPortraits/AdonisSniper,20,function: 0000029967DBCC00,71,Veteran,AdonisAssault,75,Male,Joey,0,5,true,90,1,0,75,Adonis,85,,,,function: 0000029967DBCAC0,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Marksman,UnitData,53,50,80,Adonis,AdonisSniper_Elite,UI/EnemiesPortraits/AdonisSniper,20,,71,Veteran,AdonisAssault,100,Male,Joey,50,5,true,90,1,42,,Adonis,85,true,"+AIM, +perks",Foreigners,function: 0000029967EB7818,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Marksman,UnitData,53,50,80,Adonis,AdonisSniper_Elite_copy,UI/EnemiesPortraits/AdonisSniper,20,,71,Veteran,AdonisAssault,100,Male,Joey,50,5,true,90,1,42,,Adonis,85,true,,Foreigners,function: 0000029968006800,,,UI/Mercs/placeholder_character,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Commander,UnitData,25,80,95,Adonis,AdonisSquadLeader,UI/EnemiesPortraits/AdonisOfficer,20,,80,Elite,AdonisAssault,75,Male,Joey,0,7,true,90,2,0,75,Adonis,85,,,,,,true,,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Commander,UnitData,50,80,95,Adonis,AdonisSquadLeader_Elite,UI/EnemiesPortraits/AdonisOfficer,20,,80,Elite,AdonisAssault,75,Male,Joey,52,7,true,90,2,48,,Adonis,85,true,,Foreigners,,,true,,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Stormer,UnitData,25,50,95,Adonis,AdonisStormer,UI/EnemiesPortraits/AdonisStormer,20,function: 0000029970D76158,80,Elite,AdonisAssault,75,Male,Joey,0,7,true,90,2,0,75,Adonis,85,,,,function: 0000029970D76268,Brute,true,UI/Enemies/LegionRaider,Overwatch,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,Stormer,UnitData,47,50,95,Adonis,AdonisStormer_Elite,UI/EnemiesPortraits/AdonisStormer,20,function: 0000029970E7D0A8,80,Elite,AdonisAssault,75,Male,Joey,50,7,true,90,2,38,,Adonis,85,true,,Foreigners,function: 0000029970E7D1A8,Brute,true,,Overwatch,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,true,,UnitData,25,80,95,Adonis,CorazonGuard,UI/EnemiesPortraits/AdonisSoldier,20,,80,,,75,Male,Russell,0,,,90,2,0,,Adonis,85,,,,,,,,,,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,true,Commander,UnitData,45,80,80,Army,ArmyCommander,UI/EnemiesPortraits/ArmyOfficer,73,,85,Elite,ArmySoldier,80,Male,Joey,54,5,true,82,2,57,,Army,63,,,,function: 0000029971330DA0,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,true,Commander,UnitData,45,80,80,Army,ArmyCommanderFemale,UI/EnemiesPortraits/ArmyOfficer,73,,85,Elite,AnneLeMitrailleur,80,Female,Kendra,54,5,true,82,2,57,,Army,63,,,,function: 00000299713F8448,Skirmisher,,,,,,VillagerFemale,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+62,true,Commander,UnitData,45,80,85,Army,ArmyCommander_Elite,UI/EnemiesPortraits/ArmyOfficer,73,,90,Elite,ArmySoldier,90,Male,Joey,54,8,true,89,2,57,,Army,63,,,,function: 00000299713A5758,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Army,ArmyDemo,UI/EnemiesPortraits/ArmyDemo,14,,65,,ArmySoldier,30,Male,Russell,0,4,true,71,1,84,,Army,53,,,,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Army,ArmyDemo_Elite,UI/EnemiesPortraits/ArmyDemo,14,,94,,ArmySoldier,30,Male,Russell,0,6,true,84,1,91,,Army,53,,,,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,82,Army,ArmyHeavy,UI/EnemiesPortraits/ArmyHeavy,20,,62,Veteran,ArmySoldier,39,Male,Joey,0,5,true,72,2,0,,Army,90,,,,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,true,Medic,UnitData,53,80,65,Army,ArmyMedic,UI/EnemiesPortraits/ArmyMedic,20,,51,Veteran,ArmySoldier,41,Male,Joey,12,5,true,75,1,5,,Army,42,,,,,Medic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,50,Army,ArmyMortar,UI/EnemiesPortraits/ArmyArtillery,10,function: 000002997154DAF8,45,,ArmySoldier,8,Male,Joey,0,4,true,75,1,,,Army,96,,,,function: 000002997154DAC8,Artillery,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,12,Army,ArmyRPG,UI/EnemiesPortraits/ArmyArtillery,10,,45,,ArmySoldier,8,Male,Joey,0,4,true,83,1,62,,Army,88,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,true,Recon,UnitData,0,50,70,Army,ArmyScout,UI/EnemiesPortraits/ArmyRecon,29,,55,,ArmySoldier,73,Male,Joey,0,3,true,90,2,0,,Army,48,,,,,Skirmisher,,,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,90,Army,ArmySniper,UI/EnemiesPortraits/ArmySniper,33,,40,,ArmySoldier,,Male,Joey,0,3,true,70,1,0,,Army,41,,,,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,90,Army,ArmySniper_Elite,UI/EnemiesPortraits/ArmySniper,33,,76,,ArmySoldier,79,Male,Joey,0,7,true,86,1,0,,Army,41,,,,,,true,UI/Enemies/LegionRaider,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,true,Soldier,UnitData,0,50,70,Army,ArmySoldier,UI/EnemiesPortraits/ArmySoldier,10,,64,Elite,ArmySoldier,40,Male,Joey,0,4,true,77,2,0,,Army,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,34,Army,ArmyStormer,UI/EnemiesPortraits/ArmyStormer,65,function: 0000029971776428,75,,ArmySoldier,58,Male,Joey,0,5,true,70,2,33,,Army,95,,,,function: 0000029971776B08,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,true,Beast,UnitData,0,60,0,Beast,Beast_Crocodile,,9,,100,,,69,,,0,4,true,74,1,0,,Beasts,100,,,,,Beast_Crocodile,,,,,,,,Large animal,Crocodile,,,,,,,,,,,,,,,,,,,,,,,,,
+64,true,Beast,UnitData,0,60,0,Beast,Beast_Crocodile_Grotto,,9,,100,,,69,,,0,5,true,74,1,0,,Beasts,100,,,,,Beast_Crocodile,,,,,,,,Large animal,Crocodile,,,,,,,,,,,,,,,,,,,,,,,,,
+2,,Beast,UnitData,0,60,0,Beast,Beast_Crocodile_test,,9,,100,,,69,,,0,,true,74,1,0,,Beasts,100,,,,,Beast_Crocodile,,,,,,,,Large animal,Crocodile,,,,,,,,,,,,,,,,,,,,,,,,,
+9,,,UnitData,0,60,8,Civilian,Beast_Hen,,9,,1,,,7,,,0,,,7,1,0,,Beasts,8,,,,,Beast_Hyena,,,,,,,,Small animal,Hen,,,,,,,,,,,,,,,,,,,,,,,,,
+9,true,Beast,UnitData,0,60,82,Beast,Beast_Hyena,UI/EnemiesPortraits/Hyena,9,,32,,,73,,,0,,true,79,1,0,,Beasts,45,,,,,Beast_Hyena,,,,,,,,Small animal,Hyena,,,,,,,,,,,,,,,,,,,,,,,,,
+90,true,Stormer,UnitData,0,60,8,Beast,Courage,UI/EnemiesPortraits/Hyena_Courage,9,,42,,,73,,,0,,true,79,1,0,,Beasts,45,,A11 Middle of Nowhere,,,Beast_Hyena,,,,,,,,Small animal,Hyena,,,,,,,,,,,,,,,,,,,,,,,,,
+90,,Stormer,UnitData,0,60,8,Beast,Schliemann,,9,,1,,,73,,,0,,,79,1,0,,Beasts,45,,H7 Ruins Mine,,,Beast_Hyena,,,,,,,,Small animal,Hen,,,,,,,,,,,,,,,,,,,,,,,,,
+9,true,Beast,UnitData,0,60,8,Beast,StrongHyena,UI/EnemiesPortraits/Hyena,9,,47,,,73,,,0,,true,79,1,0,,Beasts,65,,,,,Beast_Hyena,,,,,,,,Small animal,Hyena,,,,,,,,,,,,,,,,,,,,,,,,,
+30,,,UnitData,0,50,30,Civilian,DiamondRedMiner,UI/MercsPortraits/unknown,0,,13,,,30,Male,Matthew,0,,,28,1,0,,Civilians,30,,"Diamond Red - obsolete, use the generic Miner units and define proper appearance in the spawner",,,ActiveCivilian,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,50,0,Civilian,GrimerPotentiallyInfected_Female,UI/MercsPortraits/unknown,25,,45,,,25,Female,Kimberly,0,,true,,2,0,,Civilians,25,,,,,Brute,,,,100,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,50,0,Civilian,GrimerPotentiallyInfected_Male,UI/MercsPortraits/unknown,25,,45,,,25,Male,Matthew,0,,true,,2,0,,Civilians,25,,,,,Brute,,,,100,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+35,,,UnitData,15,,85,,MilitiaElite,UI/EnemiesPortraits/MilitiaHeavy,10,,70,,MilitiaRookie,80,Male,,5,6,true,85,2,5,,Civilians,80,,,,,,,,,,,,,,,0,true,,,,,,,,,,,,,,,,,,,,,,,
+35,,,UnitData,15,,75,,MilitiaRookie,UI/EnemiesPortraits/MilitiaStormer,10,,55,,MilitiaRookie,,Male,,5,2,true,70,1,5,,Civilians,70,,,,,,,,,,,,,,,0,true,,,,,,,,,,,,,,,,,,,,,,,
+35,,,UnitData,15,,80,,MilitiaVeteran,UI/EnemiesPortraits/MilitiaSoldier,10,,,,MilitiaRookie,70,Male,,5,3,true,85,2,5,,Civilians,80,,,,,,,,,,,,,,,0,true,,,,,,,,,,,,,,,,,,,,,,,
+30,,,UnitData,0,50,30,Civilian,Miner_1,UI/MercsPortraits/unknown,0,,13,,,30,Male,Matthew,0,,,28,1,0,,Civilians,30,,,,,ActiveCivilian,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+30,,,UnitData,0,50,30,Civilian,Miner_2,UI/MercsPortraits/unknown,0,,13,,,30,Male,Matthew,0,,,28,1,0,,Civilians,30,,,,,ActiveCivilian,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,50,Other,PrisonerInnocent,UI/EnemiesPortraits/ThugSoldier,20,,50,,ThugGunner,30,Male,Joey,0,,,28,2,0,,Civilians,50,,future slave,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,69,Other,PrisonerJailBird,UI/EnemiesPortraits/ThugArtillery,15,,76,,ThugGunner,65,Male,Joey,0,,true,89,2,0,,Civilians,88,,tough criminal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+25,true,Soldier,UnitData,0,50,52,Other,PrisonerJoseph,UI/EnemiesPortraits/LegionRaider,0,,99,,ThugGunner,43,Male,Joey,0,,true,74,2,0,,Civilians,97,,tough criminal,,,,,UI/Enemies/LegionRaider,,,,,,,,,,NPC_Joseph,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,69,Other,PrisonerRioter,UI/EnemiesPortraits/ThugDemo,15,,76,,ThugGunner,65,Male,Joey,0,,true,89,2,0,,Civilians,88,,tough criminal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,true,Medic,UnitData,96,,31,Civilian,SanatoriumNPC_Doctor,UI/MercsPortraits/unknown,43,,51,,,73,Male,Matthew,0,,,45,2,0,,Civilians,45,,,,,Medic,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+39,true,,UnitData,11,,51,Civilian,SanatoriumNPC_Guard,UI/EnemiesPortraits/ArmySniper,0,,81,,,54,Male,Matthew,0,,true,79,2,0,,Civilians,55,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+45,true,Medic,UnitData,52,,16,Civilian,SanatoriumNPC_Nurse,UI/MercsPortraits/unknown,26,,43,,,62,Female,Amy,0,,,56,2,0,,Civilians,39,,,,,Medic,,,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+39,true,,UnitData,13,,16,Civilian,SanatoriumNPC_PatientFemale,UI/MercsPortraits/unknown,26,,43,,,36,Female,Salli,0,,,45,2,0,,Civilians,33,,,,,ActiveCivilian,,,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+39,true,,UnitData,13,,16,Civilian,SanatoriumNPC_PatientMale,UI/MercsPortraits/unknown,26,,43,,,36,Male,Matthew,0,,,45,2,0,,Civilians,33,,,,,ActiveCivilian,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,VillagerFemale,UI/MercsPortraits/unknown,0,,15,,,20,Female,Kimberly,0,,,50,1,0,,Civilians,20,,,,,,,,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,VillagerFemale_2,UI/MercsPortraits/unknown,0,,15,,,20,Female,Emma,0,,,50,1,0,,Civilians,20,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,VillagerMale,UI/MercsPortraits/unknown,0,,15,,,20,Male,Matthew,0,,,50,1,0,,Civilians,20,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,VillagerMale_2,UI/MercsPortraits/unknown,0,,15,,,20,Male,Russell,0,,,50,1,0,,Civilians,20,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,VillagerMale_3,UI/MercsPortraits/unknown,0,,15,,,20,Male,,0,,,50,1,0,,Civilians,20,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,WorkingGirl,UI/MercsPortraits/unknown,0,,15,,,20,Female,Kimberly,0,,,50,1,0,,Civilians,20,,,,,,,,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+20,,,UnitData,0,50,15,Civilian,WorkingGuy,UI/MercsPortraits/unknown,0,,15,,,20,Male,Matthew,0,,,50,1,0,,Civilians,20,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+12,,,UnitData,0,50,13,Legion,AnimTestDummy_Crouched,,10,,10,,LegionRaider,21,Male,Joey,0,2,true,30,,0,,Dummy,23,,,,,AnimTestDummy_Crouched,,,,,,,,,,,,,AnimTestDummy_Crouched,,,,,,,,,,,,,,,,,,,,,
+12,,,UnitData,0,50,13,Legion,AnimTestDummy_Prone,,10,,10,,LegionRaider,21,Male,Joey,0,2,true,30,,0,,Dummy,23,,,,,AnimTestDummy_Prone,,,,,,,,,,,,,AnimTestDummy_Prone,,,,,,,,,,,,,,,,,,,,,
+12,,,UnitData,0,50,13,Legion,AnimTestDummy_Standing,,10,,10,,LegionRaider,21,Male,Joey,0,2,true,30,,0,,Dummy,23,,,,,AnimTestDummy_Standing,,,,,,,,,,,,,AnimTestDummy_Standing,,,,,,,,,,,,,,,,,,,,,
+100,,,UnitData,100,,100,,Dummy,UI/MercsPortraits/unknown,100,,100,,,100,Male,,100,,,100,,100,,Dummy,100,,,,,,,,,,,,,,,,,,,true,true,,,,,,,,,,,,,,,,,,,
+100,,,UnitData,100,,100,,Dummy_ArmoredHeavy,UI/MercsPortraits/unknown,100,,100,,,100,Male,,100,,,100,,100,,Dummy,100,,,,,,,,,,,,,,,,,,,true,true,,,,,,,,,,,,,,,,,,,
+100,,,UnitData,100,,100,,Dummy_ArmoredLight,UI/MercsPortraits/unknown,100,,100,,,100,Male,,100,,,100,,100,,Dummy,100,,,,,,,,,,,,,,,,,,,true,true,,,,,,,,,,,,,,,,,,,
+100,,,UnitData,100,,100,,Dummy_ArmoredMedium,UI/MercsPortraits/unknown,100,,100,,,100,Male,,100,,,100,,100,,Dummy,100,,,,,,,,,,,,,,,,,,,true,true,,,,,,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_Merc1,Mod/o4bTTgc/Images/h_m1.png,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,Mod/o4bTTgc/Images/m1.png,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_Merc2,Mod/o4bTTgc/Images/h_m2.png,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,Mod/o4bTTgc/Images/m2.png,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_Spec1,Mod/o4bTTgc/Images/h_s1.png,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,Mod/o4bTTgc/Images/s1.png,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_Spec2,Mod/o4bTTgc/Images/h_s2.png,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,Mod/o4bTTgc/Images/s2.png,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_female_01,UI/MercsPortraits/IMP_Trooper,30,,30,,IMP_female_01,30,Female,Joanna,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Trooper,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_female_02,UI/MercsPortraits/IMP_Troublemaker,30,,30,,IMP_female_01,30,Female,Joanna,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Troublemaker,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_female_03,UI/MercsPortraits/IMP_Security,30,,30,,IMP_female_01,30,Female,Joanna,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Security,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_male_01,UI/MercsPortraits/IMP_FIxer,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Fixer,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_male_02,UI/MercsPortraits/IMP_Gunner,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Gunner,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+30,,,UnitData,0,80,30,Other,IMP_male_03,UI/MercsPortraits/IMP_Pilot,30,,30,,IMP_male_01,30,Male,Geraint,0,,,30,,0,,IMP,30,,,,,,,UI/Mercs/IMP_Pilot,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,,,,,,,,,,,
+0,true,Stormer,UnitData,0,,0,Beast,Bella,,0,,100,,,30,Female,Joanna,0,,true,,2,0,,Infected,80,,,,,Brute,,,,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+0,true,Stormer,UnitData,0,,0,Beast,BellaLover,,0,,80,,,10,Male,,0,,true,,2,0,,Infected,80,,,,,Brute,,,,,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,60,0,Beast,BioLabNPC_Infected,UI/EnemiesPortraits/InfectedMale01,98,,90,,,61,Male,,0,,true,95,2,0,,Infected,97,,,,,Brute,,UI/Enemies/LegionRaider,,100,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,60,0,Beast,SanatoriumNPC_Infected,UI/EnemiesPortraits/InfectedMale01,98,,90,,,61,Male,,0,,true,95,2,0,,Infected,97,,,,,Brute,,UI/Enemies/LegionRaider,,100,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,60,0,Civilian,SanatoriumNPC_InfectedFemale,UI/EnemiesPortraits/InfectedFemale01,98,,90,,,61,Female,Raveena,0,,,95,2,0,,Infected,97,,,,,Brute,,UI/Enemies/LegionRaider,,100,,VillagerFemale,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+2,true,Stormer,UnitData,0,60,0,Civilian,SanatoriumNPC_InfectedMale,UI/EnemiesPortraits/InfectedMale01,98,,90,,,61,Male,,0,,,95,2,0,,Infected,97,,,,,Brute,,UI/Enemies/LegionRaider,,100,,,,,,,,,,,,,,,,,true,,,,,,,,,,,,,
+19,true,Stormer,UnitData,0,60,15,Legion,LegionButcher,UI/EnemiesPortraits/LegionStormer,9,,50,,LegionRaider,74,Male,,0,2,true,85,2,11,,Legion,47,,melee striker,,,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,true,Stormer,UnitData,0,60,15,Legion,LegionButcher_Stronger,UI/EnemiesPortraits/LegionStormer,9,,50,,LegionRaider,86,Male,,0,5,true,90,2,11,,Legion,47,,"+AP, +ACC",,,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,true,Stormer,UnitData,0,60,15,Legion,LegionButcher_Stronger_Elite,UI/EnemiesPortraits/LegionStormer,9,,71,,LegionRaider,86,Male,,0,8,true,96,2,11,,Legion,90,true,"+HP, +AP, +DMG, capstone: blood scent",Legion,,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,true,Stormer,UnitData,0,60,15,Legion,LegionButcher_copy,UI/EnemiesPortraits/LegionStormer,9,,50,,LegionRaider,74,Male,,0,2,true,85,2,11,,Legion,47,,,,function: 0000029967E419E0,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Recon,UnitData,0,50,55,Legion,LegionGoon,UI/EnemiesPortraits/LegionRecon,20,,28,,LegionRaider,30,Male,Joey,0,,true,80,2,0,,Legion,39,,harrasment,,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Recon,UnitData,0,50,55,Legion,LegionGoon_Stronger,UI/EnemiesPortraits/LegionRecon,20,,39,,LegionRaider,71,Male,Joey,0,3,true,85,2,0,,Legion,39,,"+AP, +AIM",,,Skirmisher,,UI/Enemies/LegionRaider,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Recon,UnitData,0,50,77,Legion,LegionGoon_Stronger_Elite,UI/EnemiesPortraits/LegionRecon,20,function: 000002996C86DBB0,64,,LegionRaider,71,Male,Joey,0,6,true,96,2,0,,Legion,39,true,"+ HP, +ACC, capstone: hold position",Legion,,Skirmisher,,UI/Enemies/LegionRaider,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Legion,LegionGrenadier,UI/EnemiesPortraits/LegionDemo,14,,53,,LegionRaider,30,Male,Russell,0,2,true,80,1,25,,Legion,53,,nuker,,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Legion,LegionGrenadier_Stronger,UI/EnemiesPortraits/LegionDemo,14,,70,,LegionRaider,30,Male,Russell,0,2,true,80,1,25,,Legion,53,,"+ HP, mobility perks",,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,Demolitions,UnitData,0,50,43,Legion,LegionGrenadier_Stronger_Elite,UI/EnemiesPortraits/LegionDemo,14,,80,,LegionRaider,30,Male,Russell,0,2,true,90,2,30,,Legion,53,true,"+ AP, +HP, captsone: berserker",Legion,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Legion,LegionGrenadier_copy,UI/EnemiesPortraits/LegionDemo,14,,53,,LegionRaider,30,Male,Russell,0,2,true,80,1,25,,Legion,53,,,,function: 0000029967E70D28,RATOAI_Demolition,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,55,Legion,LegionGunner,UI/EnemiesPortraits/LegionHeavy,20,,62,,LegionRaider,39,Male,Joey,0,2,true,65,2,0,,Legion,89,,controller,,,HeavyGunner,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,70,Legion,LegionGunner_Stronger,UI/EnemiesPortraits/LegionHeavy,20,,62,,LegionRaider,39,Male,Joey,0,4,true,47,2,0,,Legion,89,,+ACC,,,HeavyGunner,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,55,Legion,LegionGunner_copy,UI/EnemiesPortraits/LegionHeavy,20,,62,,LegionRaider,39,Male,Joey,0,2,true,65,2,0,,Legion,89,,,,function: 0000029967E63918,HeavyGunner,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+85,true,Beast,UnitData,0,60,0,Legion,LegionHyena,UI/EnemiesPortraits/Hyena_Legion,40,,27,,,77,,,0,,true,84,2,0,,Legion,64,,melee minion,,,Beast_Hyena,,,,,,,,Small animal,Hyena,,,,,,,,,,,,,,,,,,,,,,,,,
+41,true,Commander,UnitData,9,80,50,Legion,LegionHyenaHandler,UI/EnemiesPortraits/LegionStormer,81,,66,,LegionRaider,44,Male,Joey,11,5,true,85,2,10,,Legion,40,,hyena leader,,,Skirmisher,true,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,true,Commander,UnitData,9,80,50,Legion,LegionHyenaHandler_Stronger,UI/EnemiesPortraits/LegionStormer,81,,66,,LegionRaider,44,Male,Joey,11,5,true,96,2,10,,Legion,40,,"+ AP, sixth sense perk",,,Skirmisher,true,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,34,Legion,LegionManiac,UI/EnemiesPortraits/LegionStormer,65,function: 0000029965BB9060,75,,LegionRaider,58,Male,Joey,0,3,true,70,2,33,,Legion,95,,tank,,function: 0000029965BB98A0,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,34,Legion,LegionManiac_Stronger,UI/EnemiesPortraits/LegionStormer,65,function: 0000029967650AA0,96,,LegionRaider,58,Male,Joey,0,3,true,70,2,33,,Legion,95,,"+ HP, sixth sense perk",,function: 0000029967650A70,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,34,Legion,LegionManiac_Stronger_Elite,UI/EnemiesPortraits/LegionStormer,65,function: 00000299677E0F78,75,,LegionRaider,58,Male,Joey,0,3,true,70,2,33,,Legion,95,true,"+ ACC, capstone: berserker",Legion,function: 00000299677E0F48,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,true,Medic,UnitData,75,80,24,Legion,LegionMedic,UI/EnemiesPortraits/LegionMedic,20,,42,,LegionRaider,41,Male,Joey,12,3,true,94,1,5,,Legion,42,,healer,,,Medic,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,true,Medic,UnitData,93,80,74,Legion,LegionMedic_Stronger,UI/EnemiesPortraits/LegionMedic,20,,42,,LegionRaider,41,Male,Joey,12,5,true,93,1,5,,Legion,42,,+ caretaker perk,,,Medic,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,50,Legion,LegionMortarman,UI/EnemiesPortraits/LegionArtillery,10,function: 0000029967DF23D0,28,,LegionRaider,8,Male,Joey,0,,true,75,1,30,,Legion,96,,spam controller,,function: 0000029967F816C8,Artillery,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,true,Commander,UnitData,9,80,50,Legion,LegionRaidLeader,UI/EnemiesPortraits/LegionOfficer,81,,66,,LegionRaider,44,Male,Joey,11,5,true,80,2,10,,Legion,40,,leader / controller,,,,true,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+41,true,Commander,UnitData,9,80,50,Legion,LegionRaidLeader_Stronger,UI/EnemiesPortraits/LegionOfficer,81,,86,,LegionRaider,44,Male,Joey,11,5,true,80,2,10,,Legion,76,,"+HP, +STR, +overwatch power",,,,true,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+85,true,Commander,UnitData,9,80,72,Legion,LegionRaidLeader_Stronger_Elite,UI/EnemiesPortraits/LegionOfficer,81,,95,,LegionRaider,44,Male,Joey,11,8,true,87,2,10,,Legion,87,true,"+ACC, +AP, capstone: threat identified",Legion,,,true,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,70,Legion,LegionRaider,UI/EnemiesPortraits/LegionSoldier,10,,,,LegionRaider,34,Male,Joey,0,,true,70,2,0,,Legion,70,,inaccurate striker,,,,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,80,Legion,LegionRaider_Stronger,UI/EnemiesPortraits/LegionSoldier,10,,70,,LegionRaider,34,Male,Joey,0,4,true,80,2,0,,Legion,70,,"+ HP, +AP, +ACC",,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,80,Legion,LegionRaider_Stronger_Elite,UI/EnemiesPortraits/LegionSoldier,10,,80,,LegionRaider,81,Male,Joey,0,8,true,80,2,0,,Legion,70,true,"+ HP, +AIM, capstone: battle focus",Legion,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,70,Legion,LegionRaider_copy,UI/EnemiesPortraits/LegionSoldier,10,,,,LegionRaider,34,Male,Joey,0,,true,70,2,0,,Legion,70,,,,function: 0000029967E53760,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,70,Legion,LegionRaider_copy_copy,UI/EnemiesPortraits/LegionSoldier,10,,,,LegionRaider,34,Male,Joey,0,,true,70,2,0,,Legion,70,,,,function: 0000029967E589F8,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,12,Legion,LegionRocketeer,UI/EnemiesPortraits/LegionArtillery,10,,28,,LegionRaider,8,Male,Joey,0,,true,83,1,41,,Legion,88,,inaccurate striker,,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,12,Legion,LegionRocketeer_Stronger,UI/EnemiesPortraits/LegionArtillery,10,,28,,LegionRaider,8,Male,Joey,0,,true,96,1,55,,Legion,74,,"+ EXPL, +AP",,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,true,Recon,UnitData,0,50,58,Legion,LegionScout,UI/EnemiesPortraits/LegionRecon,29,,36,,LegionRaider,73,Male,Joey,0,2,true,79,2,0,,Legion,48,,flank / control,,,Skirmisher,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,true,Recon,UnitData,0,50,58,Legion,LegionScout_Stronger,UI/EnemiesPortraits/LegionRecon,29,,36,,LegionRaider,73,Male,Joey,0,5,true,79,2,0,,Legion,48,,+ move and overwatch perks,,,Skirmisher,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,true,Recon,UnitData,0,50,58,Legion,LegionScout_Stronger_Elite,UI/EnemiesPortraits/LegionRecon,29,,74,,LegionRaider,73,Male,Joey,0,2,true,82,2,0,,Legion,48,true,"+ overwatch buff, +HP",Legion,,Skirmisher,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+71,true,Recon,UnitData,0,50,58,Legion,LegionScout_copy,UI/EnemiesPortraits/LegionRecon,29,,36,,LegionRaider,73,Male,Joey,0,2,true,79,2,0,,Legion,48,,,,function: 0000029967ECEC90,Skirmisher,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,70,Legion,LegionSniper,UI/EnemiesPortraits/LegionSniper,33,,28,,LegionRaider,,Male,Joey,0,3,true,70,1,0,,Legion,41,,striker,,,,true,UI/Enemies/LegionRaider,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,70,Legion,LegionSniper_Stronger,UI/EnemiesPortraits/LegionSniper,33,,33,,LegionRaider,80,Male,Joey,0,3,true,86,1,0,,Legion,41,,"+ AP, +AIM",,,,true,UI/Enemies/LegionRaider,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,75,Legion,LegionSniper_Stronger_Elite,UI/EnemiesPortraits/LegionSniper,33,,46,,LegionRaider,95,Male,Joey,0,7,true,85,2,0,,Legion,41,true,"+ACC, +AIM, capstone: retaliation",Legion,,,true,UI/Enemies/LegionRaider,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,,Stormer,UnitData,0,60,0,Legion,LegionBrawler_SavannaCamp,UI/EnemiesPortraits/LegionButcher,82,,88,,LegionRaider,80,Male,,0,10,true,86,2,0,,Legion - Unique,96,,unique,,,Brute,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,Soldier,UnitData,0,50,71,Legion,LegionRaider_Ernie_Elite,UI/EnemiesPortraits/LegionSoldier,10,,62,,LegionRaider,34,Male,Joey,0,,true,80,2,0,,Legion - Unique,44,true,"+ AP, +HP",Legion,,,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,true,,UnitData,0,50,,Legion,LegionRaider_PresidentGuard,UI/EnemiesPortraits/LegionSoldier,10,,68,,LegionRaider,34,Male,Joey,0,4,true,80,,0,,Legion - Unique,44,,static,,,Turret,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Artillery,UnitData,0,50,12,Legion,LegionRocketeer_SlowReloader,UI/EnemiesPortraits/LegionArtillery,10,function: 000002996CCC7608,28,,LegionRaider,8,Male,Joey,0,,true,83,1,20,,Legion - Unique,88,,Pierre fight in Fortress,,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,Stormer,UnitData,0,50,63,Legion,PierreGuard,UI/EnemiesPortraits/LegionRaider,10,function: 000002996C20F000,57,,LegionRaider,40,Male,Joey,0,4,true,70,2,,,Legion - Unique,53,true,smg and melee,Legion,function: 000002996C20FCB8,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,Soldier,UnitData,0,50,63,Legion,PierreGuard_Ordnance,UI/EnemiesPortraits/LegionRaider,10,function: 000002996D196C18,57,,LegionRaider,40,Male,Joey,0,4,true,70,2,,,Legion - Unique,53,true,assault rifle + underslung launcher,Legion,,,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+81,,,UnitData,19,80,80,,Fauda,UI/MercsPortraits/Fauda,64,,78,Legendary,Fauda,45,Female,Joanna,61,7,,79,,66,,MercenariesNew,82,,,,,,,UI/Mercs/Fauda,,,,,,,,,,,,,,4000,,ExplosiveExpert,true,500,,200,2350,Iraq,,,,,,,,,,
+79,,,UnitData,50,79,84,Secret,Flay,UI/MercsPortraits/Flay,12,,79,Veteran,Flay,78,Male,,18,2,,63,,0,,MercenariesNew,80,,,,,,,UI/Mercs/Flay,,,,,,,,,,,,,,0,NotMet,Marksmen,true,0,,,,GrandChien,none,,,,,,,,,
+48,,,UnitData,5,45,80,,Kalyna,UI/MercsPortraits/Kalyna,52,,62,,,65,Female,Kimberly,67,,,77,,10,,MercenariesNew,42,,,,,,,UI/Mercs/Kalyna,,,,,,,,,,,Sniper,,,4000,,Mechanic,true,650,,260,600,Ukraine,none,none,low,,,,,,,
+94,,,UnitData,50,55,62,,Livewire,UI/MercsPortraits/Livewire,24,,55,,,80,Female,Kendra,85,,,74,,22,,MercenariesNew,44,,,,,,,UI/Mercs/Livewire,,,,,,,,,,,,,,4200,,Mechanic,true,600,,270,550,Pakistan,large,,high,,,,,,,
+77,,,UnitData,13,67,80,,Omryn,UI/MercsPortraits/Omryn,15,function: 000002996A3F2EF8,67,,Omryn,66,Male,,43,2,,75,,7,,MercenariesNew,85,,,,,,,UI/Mercs/Omryn,,,,,,,,,,,,,,3300,,Marksmen,true,375,,,650,Russia,,,,,,,,,,
+56,,,UnitData,12,,77,Secret,PierreMerc,UI/MercsPortraits/Pierre,39,function: 000002996C69A5F0,81,,,68,Male,,5,3,,72,,15,,MercenariesNew,78,,,,,,,UI/Mercs/Pierre,,,,,,,,,,NPC_Pierre,,,,0,,Leader,true,0,,,,GrandChien,,,,"A local boy who joined the Legion years ago in a pursuit of adventure, and grew up to become a Legion warlord. He recently returned to Ernie with a band of raiders, only to rob his home town and break the heart of his father. 
+Yet he is as a person who lives by his own code – he dislikes unneeded violence and did restrain his Legion thugs from doing too much mischief.",,,,,,
+55,,,UnitData,36,85,77,Secret,Smiley,UI/MercsPortraits/Smiley,54,function: 00000299676F4C28,82,,Smiley,56,Male,,5,2,,78,,5,,MercenariesNew,73,,,,,,,UI/Mercs/Smiley,,,,,,,,,,,,,,0,NotMet,AllRounder,true,0,,,,Arulco,,,,,,,,,,
+91,,,UnitData,20,82,70,,Barry,UI/MercsPortraits/Barry,29,,81,,Barry,87,Male,,46,2,,73,,92,,MercenariesOld,78,,,,,,,UI/Mercs/Barry,,,,,,,,,,,,,,4100,,ExplosiveExpert,true,100,,280,470,Hungary,none,,,"""Hungarian-born Unger is part of a new breed of explosive experts. He learned most of his trade the safe way--in a classroom. His studies included the theory behind incendiary devices, and the technical aspects of electronics and circuitry. Although he also took locksmith and swimming courses, he didn't do well in the latter."" - A.I.M. Dossier
+
+Additional info:
+
+Speaks with a heavy Hungarian accent. Use of English is stilted and overly formal.
+Dispassionate and distant, straightforward with his opinions, yet in possession of humility.
+Religion had a strong part in his upbringing.
+Precise and intelligent (would likely read instructions before attempting anything).",,,,,,
+73,,,UnitData,51,84,78,,Blood,UI/MercsPortraits/Blood,6,function: 0000029971C6D208,84,Veteran,,88,Male,,23,3,,94,,31,,MercenariesOld,83,,,,,,,UI/Mercs/Blood,,,,,,,,,,,,,,3000,,Marksmen,true,350,,,770,SouthAfrica,large,,,"""Whether it's jungle warfare or close-quartered combat, Blood Hanson is your man for the assignment. Trained in the martial arts, his ability to fling a combat knife into an enemy's neck is a sight to behold: it seems to come out of nowhere, sails an impossibly large distance, then slices through it's target with unerring accuracy.
+
+Additional info: Keith Hanson is a former member of the ANC."" - A.I.M. Dossier",,,,,,
+93,,,UnitData,49,79,86,,Buns,UI/MercsPortraits/Buns,24,function: 0000029971D2AB28,79,Veteran,Buns,87,Female,Amy,8,2,,79,,4,,MercenariesOld,56,,,,,,,UI/Mercs/Buns,,,,,,,,,,,,,,4300,,Marksmen,true,400,,260,655,Denmark,large,,,"""The prim and proper Monica Sondergaard may seem to be an unlikely candidate for the rough and tumble mercenary life, but she more than meets the minimum requirements. Before settling on A.I.M., Buns explored a number of careers: kindergarten teacher, geriatric nurse, Danish sharpshooter at the Atlanta Olympic games, and professional soldier.""
+
+Additional info:
+
+A prim and proper prude, her uptightedness goes hand-in-hand with her professionalism and skill.
+Believes herself better than anyone else.
+Has a sense of superiority. She's a merc because she wants to, not because she has to.
+Puts her feelings before logic.
+To a Danish person her dialect sounds German or Russian. (To a person with knowledge of the russian language and accent she definitely doesn't sound any russian at all. Ivan Dolvich has classic russian accent)",,,,,,
+87,,,UnitData,88,88,,,DrQ,UI/MercsPortraits/DrQ,26,,88,Elite,,81,Male,,19,3,,94,,20,,MercenariesOld,73,,,,,,,UI/Mercs/DrQ,,,,,,,,,,,,,,4000,,Doctor,true,380,,200,1350,China,none,,,"""Doctor Huaong draws much of his medical knowledge from the branches of the ancient healing traditions. His marksmanship may be a little poor, but Dr. Q's expertise in so many other disciplines--night operations, guerrilla warfare tactics, and martial arts-more than make up for it, and he could easily double his fees. ""
+
+Additional info:
+His salary is currently undergoing renegotiation.",,,,,,
+62,,,UnitData,3,88,86,,Fidel,UI/MercsPortraits/Fidel,1,,88,Veteran,Fidel,64,Male,,6,3,,83,,98,,MercenariesOld,83,,,,,,,UI/Mercs/Fidel,,,,,,,,,,,,,,4250,,ExplosiveExpert,true,700,,,2000,Cuba,none,,,"JA1:
+
+""The irrepressible Fidel Dahan was bred for this business. At ease with firearms and explosives, he is wanted on a worldwide warrant for his role in the Cancun Catastrophe, but has managed to stay one step ahead of the organisations seeking his capture."" - A.I.M. Dossier, Jagged Alliance
+
+JA2: 
+
+""Due to numerous employee complaints concerning his refusal to follow orders, Fidel ""Leave me alone, I'm busy!"" Dahan was recently suspended for a thirty-day period. Promising a changed attitude, he was returned to active duty by A.I.M. though because he is so proficient with both firearms and explosives."" - A.I.M. Dossier, Jagged Alliance 2
+
+Additional info:
+
+Has a comical ruthlessness to him. Conveyed by a short, heavy, Cuban accent.
+Usually mad about something, shows hints of a softer side but even that is tainted.
+Extremely impatient. Type of guy that would force a square into a circle while blaming the square for his frustration.
+Jagged Alliance 2 has Fidel ""Not being quite himself lately"". There are some hints suggesting this has something to do with the disappearance of Hurl E. Cutter.
+Trivial bits of dialogue in various games suggest he may be homosexual.",,,,,,
+76,,,UnitData,69,77,69,,Fox,UI/MercsPortraits/Fox,21,function: 000002996D9E6A18,78,,Fox,100,Female,Nicole,15,2,,85,,8,,MercenariesOld,56,,,,,,,UI/Mercs/Fox,,,,,,,,,,,,,,4200,,Doctor,true,222,,280,560,USA,large,long only,,"JA 1
+
+""Dangerous, desirable and devious, Cynthia Guzzman is the latest female addition to our organization. A former nurse from Newark with a doctor's attitude, the Fox is known for her field treatment of casualties, excellent agility and amazing dexterity.""
+
+JA2
+
+""Initially trained as an emergency room nurse, Fox Guzzman was recently featured in ""Babes and Bullets,"" a prestigious monthly mercenary magazine. Her article on controlling hemorrhaging while on the battlefield was almost as highly praised as her centerfold layout.""
+Additional Info: Guzzman has recently spent a lot of time on the firing range and it has paid off handsomely.""
+
+JA2 WF
+
+""Originally trained as a nurse, Fox Guzzmann was highlighted in an outstanding monthly magazine for mercenaries. The special article was entitled ""Curves in Uniform"". In the article, her medical skills on the combat field were almost as highly praised as her front and backsides.""
+
+Additional info:
+The pin-up girl of A.I.M., stunning and seductive.
+Dialogue is often vaguely (or not so vaguely) sexual
+Conscious of her appearance, and is not afraid to take advantage of her good looks
+Voice is seductive in all games except Back In Action
+It is implied that she and Peter ""Wolf"" Sanderson are more than just friends. Openly mentions past affairs with a few other male mercenaries (and implies even more).",,,,,,
+72,,,UnitData,8,94,79,,Grizzly,UI/MercsPortraits/Grizzly,18,function: 00000299715E6CA0,94,,,51,Male,,24,2,,69,,37,,MercenariesOld,95,,,,,,,UI/Mercs/Grizzly,,,,,,,,,,,,,,3600,,AllRounder,true,175,,270,480,USA,none,,,"""A bear of a man, Grizzly Bornell carries the big guns of battle with authority. Even though heavy weapons are his specialty, he is just as lethal when left empty-handed. He's a soldier's soldier--all guts and no need for glory. Not surprisingly, his combat exploits are almost always the talk of the plane ride home.""
+
+Additional info:
+Big and burly, a bear of a man.
+His toughness is to such an extent it borders on comical, yet understated. No need for kickass statements, it is simply understood.
+Friendly, and without pretence, he's the type of guy you'd want next to you in combat.
+Voice: Deep, warm, reassuring.
+Not a big fan of traditional medical techniques, views them as crazy.",,,,,,
+74,,,UnitData,22,82,78,,Grunty,UI/MercsPortraits/Grunty,21,,82,Veteran,,75,Male,,45,3,,77,,28,,MercenariesOld,71,,,,,,,UI/Mercs/Grunty,,,,,,,,,,,,,,2400,,AllRounder,true,100,,300,500,Germany,extreme,,,"JA1: 
+
+""Helmut Grunther is a young up-and-comer to the mercenary market.  Comfortable with taking the point position, he expects to make his mark in this merciless milieu in the near future.  Of course, that's if it doesn't make its mark on him!"" - dossier, Jagged Alliance
+
+JA2:
+
+""Helmut has moved through the ranks of this organization quicker than any other mercenary and is now a firmly established seasoned professional. Grunty's attitude and approach continues to be exemplary, making him one of our most popular mercenaries. Grunther has shown a strong interest in heavy weapons and night maneuvers."" - dossier, Jagged Alliance 2
+
+Additional info:
+
+German accent.
+A go-getter, someone eager who takes his job seriously.
+A hint of ego, though not conceited.
+Has something to say about everything.
+Very sociable and well liked by the other AIM members, especially the Dolviches.",,,,,,
+94,,,UnitData,71,75,95,,Gus,UI/MercsPortraits/Gus,85,,74,Legendary,,84,Male,,80,8,,71,,76,,MercenariesOld,81,,,,,,,UI/Mercs/Gus,,,,,,,,,,,,,,6500,Retired,Leader,true,1800,,200,4600,USA,,none,,"JA1:
+
+Gus' officially appears for the first time in Deadly Games as a non-player character who hires the commander to perform a series of missions, eventually culminating in a takedown of terrorist organization DFK.
+
+If there's room in the team, Gus will join your merc squad on the very last mission to take on the DFK in their own headquarters. He carries with him high stats all around with the exception of a slightly subpar agility and medical skill, high level gear (to match the gear the squad has undoubtedly accumulated at this point) and joins for free. He performs the entire mission with a huge smile on his face, no matter what's going on. Evidently he really meant it when he said he wanted to get onto the field.
+
+JA2:
+
+
+""After rather heated negotiations, A.I.M. is pleased to announce that the legendary DFK annihilator, Gus Tarballs, is now a member of our ranks. Gus's induction was delayed slightly when his mobile home slipped from its support blocks while he was in the process cleaning the septic hosing. Fortunately, his crushed right leg has healed rather nicely. Additional info: Our medical staff has recently cleared heavy weapons specialist Tarballs for full active duty."" - A.I.M. dossier, Jagged Alliance 2
+
+JA2WF:
+
+Health problems have caused Gus to retire from active mercenary service. Old leg injuries have finally caught up to him. We are nevertheless proud that we have this mature and experienced mercenary on our board of directors where he can continue to advise us on strategic matters."" - Jagged Alliance 2: Wildfire Alumni gallery
+
+Additional Info:
+
+Appearing to have a outgoing personality, Gus actually prefers the life of a loner and does better if no one is around him watching his every move. As he would say: ""Leave me the hell alone, woody""
+Refers to the player as ""Woody"", a likely reference to one of Sir-Tech's founders, Robert Woodhead.",,,,,,
+74,,,UnitData,3,75,88,,Hitman,UI/MercsPortraits/Hitman,58,,72,Elite,Hitman,40,Male,,11,4,,69,,39,,MercenariesOld,72,,,,,,,UI/Mercs/Hitman,,,,,,,,,,,,,,2900,,Marksmen,true,100,,,900,USA,,,,"JA1:
+
+""Undisturbed by the scent of death, Frank Hennessy is a member in excellent standing. A private, yet personable individual, the Hitman has a proven track record and a no nonsense disposition. A note of caution: he suffers from buoyancy difficulties."" - Jagged Alliance
+
+JA2:
+
+""The Hitman's easy-going and personable disposition has made him one of the more popular and respected mercenaries in the organization. Unfortunately, Frank hasn't taken care of himself lately and his health and skills have dropped off slightly. Despite repeated attempts, Hennessy has been unable to overcome his weight problem.  Additional info: Frank has been talking of throwing in the towel and become a combat instructor."" - Jagged Alliance 2",,,,,,
+78,,,UnitData,7,90,87,,Ice,UI/MercsPortraits/Ice,25,,90,Veteran,,87,Male,,42,3,,88,,3,,MercenariesOld,84,,,,,,,UI/Mercs/Ice,,,,,,,,,,,,,,4500,,Marksmen,true,520,,260,900,USA,,long only,,"JA1:
+
+A.I.M. Dossier - Jagged Alliance
+
+""A longtime member, Ice Williams has been primarily used as a sniper since joining the organization. Undaunted by the prospect of working for those of unknown reputation, he instead prides himself in helping those new to the mercenary game establish themselves.""
+A.I.M. Dossier - Deadly Games
+
+""A longtime member, Ice Williams has been primarily used as a sniper since joining the organization almost nine years ago. ""Casual"" is probably the word that best describes this nonchalant soldier for hire. ""Lethal"" would be another.""
+
+JA2:
+
+A.I.M. Dossier
+
+""The Iceman is back. After a short yet disastrous stint with one of our competitors--and we use that term loosely-Ice gained insight and wisdom on the merits of dealing with a professional organization. Williams owes a debt of gratitude to Magic for getting him reinstated.""
+""Additional Info: His weapon of choice is the automatic.""
+Additional info:
+
+Cool, laid-back, patient and friendly.
+Never gets overly excited. He's always got it covered.
+Lives life for the moment, by the moment.
+Conversation has a street corner, rather than combat zone, feel to it.
+Ice's patience and friendly demeanor make him an ideal instructor.
+It can be inferred from his JA2 bio (worked for a competitor) and his JA1 bio (loves helping the new guy) that he spent a short (very short) time working for M.E.R.C.",,,,,,
+81,,,UnitData,17,91,78,,Igor,UI/MercsPortraits/Igor,4,function: 0000029967DB7518,90,,Igor,74,Male,Geraint,36,2,,89,,19,,MercenariesOld,85,,,,,,,UI/Mercs/Igor,,,,,,,,,,,,,,3500,,AllRounder,true,275,,290,450,Russia,large,,high,"""Following in his uncle's footsteps won't be easy for Igor. His uncle Ivan Dolvich is legendary. Igor may be new to A.I.M. but he is by no means new to armed combat--he developed his abilities for stealth while in action in Chechnya. Most importantly, his bloodline speaks volumes about his potential. Igor and Ivan are already being referred to as the Russian ""I-Team."""" - A.I.M. Dossier
+
+Additional info: 
+
+Russian accent.
+Has had plenty of exposure to alcohol due to the horrors of war, though not as much of a drunk as Larry. 
+Uses odd expressions, which sometimes come off as strange and funny.
+Admires his uncle, Ivan, but probably lacks the fortitude and discipline to be like him.
+His affordable rates and good physical stats makes him a good choice for the opening game.",,,,,,
+82,,,UnitData,15,94,92,,Ivan,UI/MercsPortraits/IvanPortrait,35,,94,Elite,Ivan,95,Male,Russell,14,4,,91,,55,,MercenariesOld,87,,,,,,,UI/Mercs/Ivan,,,,,,,,,,,,,,6200,,Marksmen,true,1400,,200,2650,Russia,,,,"JA1
+
+""A new member and a onetime decorated Major in the Red Army, Ivan Dolvich has, like his country, switched from killing for Lenin to dying for Lincolns. However, unlike his homeland, Ivan actually appears to be good at it."" 
+
+JA2
+
+""Ivan, a former highly decorated Red Army Major, joined the organization over three years ago on a freelance assignment. Despite serious difficulties communicating in English, he took the mercenary world by storm, breaking all kill-rate records and tallying up the kind of stats that perhaps only he himself is capable of breaking. Ivan himself says it best, 'gun, all gun, like finger on hand.' In order to improve his relationship with commanders, Ivan has enrolled in an ""English as a second language"" course.""
+
+Skills - Auto Weapons; Heavy Weapons",,,,,,
+58,,,UnitData,70,69,62,Secret,Larry,UI/MercsPortraits/Larry_Addiceted,18,,69,,,73,Male,,14,3,,72,,92,,MercenariesOld,67,,,,,,,UI/Mercs/Larry_Addicted,,,,,,,,,,,,,,0,MIA,ExplosiveExpert,true,0,,,,UnicornLand,,,,"JA1:
+
+""On probationary standing, Larry Roachburn, a somewhat respected explosives expert, was a young survivor of the C.I.A./L.S.D. years. And when not on assignment, he continues to subject his body to the whims of pharmaceutical researchers around the world.""
+
+JA2 Alumni:
+
+""After eight attempts at rehab without any sustained success, AIM was little choice but to terminate Larry Roachburn's membership within the organization. From what we understand, the death of his father has persuaded him to take yet another attempt at ridding himself of his demons and ridding his body from decades of toxicity. The organization wishes him the best of luck in all his future endeavors.""
+
+JA2 MERC:
+
+""There's no denying that Larry has had his share of substance abuse problems in the past, and despite many attempts at rehabilitation, the demons remain. Roachburn has recently spent six months at an exclusive and classy rehab center undergoing treatment. Having completed the program, he proclaims himself cured and ready for duty.
+
+Additional Info:Larry spent most of his spare time in rehab studying pharmacology which has tremendously improved his medical knowledge.""
+
+Additional Info
+
+Larry's drug habits have made him forgetful, and he will often stop in the middle of a task in need of a reminder, losing AP.
+His brother Gary derisively refers to him as ""Anything But A Placebo"" Larry.
+
+Jagged Alliance/Deadly Games
+Having ruined his health with drugs, Larry loses rather than gains stats at the end of a day, a trait normally reserved to old mercs.
+
+Jagged Alliance 2
+
+Larry has two different personalities - clean and relapsed. After hiring, he can relapse under certain conditions, losing a lot of stat points, making him almost useless.
+
+As long as he stays clean he's the sociable sort, and loves to hang around other mercs (with some exceptions). However, once relapsed he loses focus and becomes forgetful, preferring the loner lifestyle.
+
+Relapse conditions
+
+Stationary passing time while assigned to squad, carrying energy booster, regeneration booster, medical kit, or any type of alcohol. First aid kits are excluded.
+
+Stationary passing time while assigned to squad, carrying none of the above items, in any city sector that has a bar.
+The easiest way to prevent a relapse while carrying any of the above items, is keeping Larry busy, assigning him to squad only to travel and fight. And even though sleeping whilst assigned to squad (eg. after travelling) would be safe, there's no wake-up call and Larry's very quick to get his hands on something ""groovy"".
+
+Getting clean
+
+Luckily there's an easy way to get him clean. A one day speed course called ""walkabout"". Within a short while, needing a rest at least once, he's as fit as a fiddle again. As mentioned above, carrying any of the ""relapse triggering items"" isn't a problem per se, just keep a very close tab on him waking up.
+
+Due to strength loss, Larry can be severely encumbered while on the ""walkabout"" and damage his strength and/or health. Damaged strength will be temporary and reset as soon as he's clean, even though it still looks red for a short while. Damaged health will be permanent until dismissed! Dismissing him will reset health back to what it was.",,,,,,
+70,,,UnitData,70,69,70,Secret,Larry_Clean,UI/MercsPortraits/Larry,18,,63,,,79,Male,,14,3,,77,,92,,MercenariesOld,67,,,,,,,UI/Mercs/Larry,,,,,,,,,,,,,,0,MIA,ExplosiveExpert,true,0,,,,USA,,,,"JA1:
+
+""On probationary standing, Larry Roachburn, a somewhat respected explosives expert, was a young survivor of the C.I.A./L.S.D. years. And when not on assignment, he continues to subject his body to the whims of pharmaceutical researchers around the world.""
+
+JA2 Alumni:
+
+""After eight attempts at rehab without any sustained success, AIM was little choice but to terminate Larry Roachburn's membership within the organization. From what we understand, the death of his father has persuaded him to take yet another attempt at ridding himself of his demons and ridding his body from decades of toxicity. The organization wishes him the best of luck in all his future endeavors.""
+
+JA2 MERC:
+
+""There's no denying that Larry has had his share of substance abuse problems in the past, and despite many attempts at rehabilitation, the demons remain. Roachburn has recently spent six months at an exclusive and classy rehab center undergoing treatment. Having completed the program, he proclaims himself cured and ready for duty.
+
+Additional Info:Larry spent most of his spare time in rehab studying pharmacology which has tremendously improved his medical knowledge.""
+
+Additional Info
+
+Larry's drug habits have made him forgetful, and he will often stop in the middle of a task in need of a reminder, losing AP.
+His brother Gary derisively refers to him as ""Anything But A Placebo"" Larry.
+
+Jagged Alliance/Deadly Games
+Having ruined his health with drugs, Larry loses rather than gains stats at the end of a day, a trait normally reserved to old mercs.
+
+Jagged Alliance 2
+
+Larry has two different personalities - clean and relapsed. After hiring, he can relapse under certain conditions, losing a lot of stat points, making him almost useless.
+
+As long as he stays clean he's the sociable sort, and loves to hang around other mercs (with some exceptions). However, once relapsed he loses focus and becomes forgetful, preferring the loner lifestyle.
+
+Relapse conditions
+
+Stationary passing time while assigned to squad, carrying energy booster, regeneration booster, medical kit, or any type of alcohol. First aid kits are excluded.
+
+Stationary passing time while assigned to squad, carrying none of the above items, in any city sector that has a bar.
+The easiest way to prevent a relapse while carrying any of the above items, is keeping Larry busy, assigning him to squad only to travel and fight. And even though sleeping whilst assigned to squad (eg. after travelling) would be safe, there's no wake-up call and Larry's very quick to get his hands on something ""groovy"".
+
+Getting clean
+
+Luckily there's an easy way to get him clean. A one day speed course called ""walkabout"". Within a short while, needing a rest at least once, he's as fit as a fiddle again. As mentioned above, carrying any of the ""relapse triggering items"" isn't a problem per se, just keep a very close tab on him waking up.
+
+Due to strength loss, Larry can be severely encumbered while on the ""walkabout"" and damage his strength and/or health. Damaged strength will be temporary and reset as soon as he's clean, even though it still looks red for a short while. Damaged health will be permanent until dismissed! Dismissing him will reset health back to what it was.",,,,,,
+83,,,UnitData,35,89,83,,Len,UI/MercsPortraits/Len,68,function: 000002996CB03890,87,Legendary,Len,88,Male,Russell,54,7,,78,,47,,MercenariesOld,77,,,,,,,UI/Mercs/Len,,,,,,,,,,,,,,3600,,Leader,true,170,,210,2150,USA,,,,"JA1:
+
+""A member in excellent standing, Len Anderson has been fighting for truth and justice since his teens. A onetime member of the Green berets and a longtime member of A.I.M., his salary may seem excessive, but his extraordinary abilities easily merit the price."" - Jagged Alliance.
+
+JA2:
+""A career military man, Anderson was barely out of his teens before he joined the Green berets. After serving with distinction, he joined A.I.M. as one of its original members and fought alongside A.I.M.s founders in the battle for Angetta. Len is a strong leader, his tours of duty has earned him the respect and appreciation of many."" - Jagged Alliance 2
+
+Additional info:
+Back in his home town, the community minded Anderson teaches a NRA course on the proper care and handling of automatic weapons.
+
+Notes:
+In Jagged Alliance 2, Len's skills and experience don't advance. This is intended and not a bug (old dog and new tricks) and partly explain his very low price for his level. His baseline skills still make him worth hiring however, especially towards endgame.
+Somewhat gravelly voice. Tough as nails, no-nonsense and honest in his assessments.
+Respect is earned and not given with this man.
+Has no fear of criticising poor leadership.
+Reminds of a hard but honest drill sergeant. Tends to be very by-the-book, otherwise.",,,,,,
+94,,,UnitData,81,72,68,,MD,UI/MercsPortraits/MD,4,,72,,MD,78,Male,,7,,,62,,0,,MercenariesOld,76,,,,,,,UI/Mercs/MD,,,,,,,,,,,,,,3500,,Doctor,true,525,,270,450,Canada,large,,,"""Fresh out of med school, Doctor Dawson eagerly awaits his first assignment. Although his innocent and youthful appearance has prevented others from taking him seriously but rest assured, once he saves a couple of lives, he'll be shown the kind of respect he deserves. For a man who just completed his internship, he can certainly wield a mean scalpel.""
+
+Additional info:
+
+Young, inexperienced, a little chattier than most of the others.
+Uses some scientific terminology.
+Enthusiastic and somewhat brash.
+Surprises himself on occasion as he feels his way through combat.
+MD has an excellent wisdom score, so you can easily train up his marksmanship",,,,,,
+80,,,UnitData,24,95,94,,Magic,UI/MercsPortraits/Magic,15,,95,Legendary,Magic,98,Male,,91,5,,99,,27,,MercenariesOld,92,,,,,,,UI/Mercs/Magic,,,,,,,,,,,,,,9000,,Mechanic,true,2800,,150,4900,USA,,,,"JA1:
+
+""Cautious, light-footed and extremely agile, Earl Walker is considered to be one of the best second story men in the business. And even when he's been fingered, his sharp eyes and deadly aim have eliminated the dilemma of witnesses!"" - Jagged Alliance
+
+JA2:
+
+""Magic's calm, cool, and collected demeanor sets the tone for battle. In peak physical condition, he displays razor-sharp reflexes and catlike agility. Magic can ferret out danger with astonishing acumen. And with his lethal marksmanship, he quickly and efficiently puts an end to any threat. He's nicknamed Magic due to the way doors seem to open up in front of him."" - Jagged Alliance 2
+
+Additional info:
+
+Voice: Deep, drawn-out and definitive
+Assertive, detached and deadly.
+Being a second-story man, he is regularly wanted by the police, something he shared with fellow burglar Jimmy Upton until Jimmy was caught and jailed.",,,,,,
+80,,,UnitData,3,78,83,,Meltdown,UI/MercsPortraits/Meltdown,24,,78,Veteran,Meltdown,84,Female,Kendra,22,3,,77,,40,,MercenariesOld,76,,,,,,,UI/Mercs/Meltdown,,,,,,,,,,,,,,3100,,AllRounder,true,200,,,720,USA,large,,,"""Don't mess with Meltdown. She may be smiling in her file photo, but that smile is certainly deceptive. This mercenary is legendary; an enemy once died at her feet from fear before Meltdown had even raised her weapon. As for her taste in weapons, the bigger, the better. In fact, Meltdown has a tendency for overkill in virtually every aspect of her life. Jessop is remarkably ambidextrous; she can easily fire two weapons simultaneously. "" A.I.M Dossier
+
+Additional info:
+
+A foul-mouthed, kickass woman who could clear a bar in no time.
+You'd shake in fear just looking at her.
+Loves violence and killing.
+Generally misanthropic, and has especially little time for cowards. Admires Rothman for his ability to instill discipline, and Rothman appreciates her no-nonsense attitude.",,,,,,
+75,,,UnitData,50,85,68,,Mouse,UI/MercsPortraits/Mouse,10,,83,,,95,Female,Joanna,4,,,99,,0,,MercenariesOld,50,,,,,,,UI/Mercs/Mouse,,,,,,,,,,,,,,4300,,AllRounder,true,650,,,680,USA,,,,"JA1: DG
+
+""Stella's friend, Anita, was a street performer throughout Europe and North Africa. Her mime act was panned in Paris, booed in Greece and stoned in Tripoli. But after meeting Miss Trammel, Mouse joined A.I.M., and brought her uncanny silence with her."" - A.I.M. Dossier, Jagged Alliance: Deadly Games
+
+JA2: Alumni
+
+""Anita's stint with the organization was short and rather quiet.  Known for her uncanny ability to move about unnoticed, and not much else, Mouse handed in her resignation at the same time as Dr. Margaret ""Stella"" Trammel.  It is our understnading that they moved to the Virgin Islands together where Backman serves as nurse/receptionist at Trammel's newly opened medical clinic."" -Jagged Alliance 2, Alumni Gallery",,,,,,
+79,,,UnitData,11,72,84,,Nails,UI/MercsPortraits/Nails,30,,71,Elite,,88,Male,,63,4,,,,78,,MercenariesOld,90,,,,,,,UI/Mercs/Nails,,,,,,,,,,,,,,3900,,ExplosiveExpert,true,400,,,1600,USA,none,,,"JA1:
+
+""Edgar Smorth was the leader of the largest biker gang on the continent. He's as tough as, you guessed it, Nails, and he's wanted in just about every country with law. For now, Nails has decided to lie low in A.I.M.. A word of warning - Don't mess with the vest!"" - Jagged Alliance
+
+JA2:
+
+""Edgar Smorth traded in his bike, leathers, and vest to become a full-time A.I.M. mercenary. In the year he's been with the organization, Nails has taken advantage of his knowledge about car bombs to become a military explosives expert. Despite his career change, he hasn't lost his combative edge or substantial belly he developed as a renegade biker. Edgar has a knack for getting into inaccessible places, just as long as they aren't too small and narrow."" - Jagged Alliance 2
+
+Additional info:
+
+Ex-biker, tough guy.
+Voice: Heavy, deep and raspy.
+Takes a jovial pleasure in killing.
+Likes let out a sick laugh when he's having fun.
+Calls people Scooter; a friendly put-down.
+Do not even think about touching the leather jacket.",,,,,,
+76,,,UnitData,11,80,84,,Raider,UI/MercsPortraits/Raider,91,function: 00000299676A1718,80,Elite,Raider,78,Male,Matthew,12,4,,71,,20,,MercenariesOld,80,,,,,,,UI/Mercs/Raider,,,,,,,,,,,,,,4200,,Leader,true,760,,220,1800,USA,,,,"""Lt. Ron Higgens is a former commander of the Los Angeles SWAT team. When he fell in love with his ace sniper, Sgt. Charlene Higgens, they managed to keep their relationship a secret up until a year ago. When they decided to marry, the L.A.P.D. refused to allow them to continue working together, so they joined A.I.M. He's organized, experienced, and decisive. Raider is a natural leader. """,,,,,,
+78,,,UnitData,17,85,94,,Raven,UI/MercsPortraits/Raven,19,function: 0000029968311C50,85,Veteran,Raven,93,Female,Emma,5,2,,76,,5,,MercenariesOld,68,,,,,,,UI/Mercs/Raven,,,,,,,,,,,,,,7300,,Marksmen,true,1100,,230,1650,USA,,,,"""Former L.A.P.D. SWAT team sharpshooter, Sgt. Charlene Higgens left the force for A.I.M. so she could work alongside her husband, Ron Higgens. They prefer to take assignments together since operate with the precision of a solitary unit. If you listen to them though, you'd never realize they're married; they rarely acknowledge their personal lives during work. Raven is qualified in night operations."" - A.I.M. dossier
+
+Additional info:
+
+A female version of her husband. They belong together. Also good friends with Donna who is their unofficial go to doctor for treating injuries.
+Less obsessive about being in charge.
+A consummate professional that gets on well with everyone.
+Lighter, more prone to humor
+More open and outgoing.",,,,,,
+81,,,UnitData,2,81,97,,Reaper,UI/MercsPortraits/Reaper,34,,80,Legendary,Reaper,92,Male,,41,6,,92,,47,,MercenariesOld,81,,,,,,,UI/Mercs/Reaper,,,,,,,,,,,,,,6400,,Marksmen,true,,,200,3600,USA,,,,"""Otherwise known as The Assassin, if you come face-to-face with Carl Sheppards, chances are you're on your last breath. The Reaper takes pride in his patience. He strides silently and uses his stealth skills to gain easy access to his victims. Carl also gets a kick out of looking them in the eye just before they die. One of his former CO's described him as ""potentially too dangerous even for A.I.M. service."" - Jagged Alliance 2
+
+Additional info:
+
+A loner, though not anti-social.
+Sees death and killing as something spiritual.
+Carries himself as if living on another plane of existence, and can be very eloquent and poetic about how he perceives things.
+He's almost spooky, has an unsettling calmness.",,,,,,
+79,,,UnitData,5,68,78,,Red,UI/MercsPortraits/Red,21,,66,Elite,Red,81,Male,Geraint,35,4,,66,,100,,MercenariesOld,68,,,,,,,UI/Mercs/Red,,,,,,,,,,,,,,2750,,ExplosiveExpert,true,100,,280,800,Scotland,extreme,,,"""This mad, mumbling Scotsman is from the old school of explosives where your instructor would fly by in pieces and you quickly moved up the ranks. Spragg is a survivor. With many years of experience under his wire cutters, he takes pride in teaching those military college kids a thing or two about detonation devices. Don't be thrown by Red's frantic ravings; the situation is rarely as dire as he likes to believe.""
+
+Additional info:
+
+Easily excitable. Goes off rants. Bit of a hothead
+Pessimist. Sees situations for their worst.
+Heavy Scottish accent.
+Well liked by most of the other explosive experts despite his attitude.",,,,,,
+83,,,UnitData,17,87,99,,Scope,UI/MercsPortraits/Scope,39,,86,Legendary,Scope,76,Female,Kendra,4,5,,89,,21,,MercenariesOld,64,,,,,,,UI/Mercs/Scope,,,,,,,,,,,,,,4900,,Marksmen,true,,,200,2600,England,,none,,"""As a former member of the British Special Forces, Sheila Sterlin was stationed in Belfast. She is en expert sharpshooter and trained in the art of urban warfare. Though she's new in the organization, Scope is a professional with impressive credentials."" - A.I.M. Dossier, Jagged Alliance: Deadly Games
+
+""First off, a correction is in order: Sterling's previous bio mistakenly stated that she was a member of the British Special Forces when, in fact, no such service exsists. She served with the British Special Air Service (SAS). A.I.M. regrets the error and any inconvenience it may have caused.
+
+Additional Info: Trained in urban warfare, Scope is an expert markwoman and is well-versed in night operations."" - A.I.M. Dossier, Jagged Alliance 2",,,,,,
+93,,,UnitData,36,90,92,,Scully,UI/MercsPortraits/Scully,70,,90,Legendary,,95,Male,,61,5,,88,,66,,MercenariesOld,87,,,,,,,UI/Mercs/Scully,,,,,,,,,,,,,,6800,,Leader,true,1900,,200,4300,England,,,low,"JA1:
+
+""Robert James Sullivan is a distinguished member of A.I.M. and is known in the business as a fearless ""finisher"". When the chips are down and the enemy's jugular is exposed, there's no better man with a knife in his hand than ""Scully"".""
+
+JA2:
+
+""The amiable Scully Sullivan is a long-time A.I.M. member. He's one of our most distinguished mercenaries and perhaps the most respected among his peers. Scully holds the A.I.M. record for the highest number of combat engagements in almost as many different countries. Need someone to snap the last breath from an enemy? Then Sullivan's your man. Scully is well-known for his skills with a bladed weapon.""
+
+Additional info:
+
+Scully is a super friendly guy. He's been married eight times and has twenty one kids.
+Though British, he has a out-going demeanor easily mistaken for Australian. His cockney accent, tanned complexion and propensity to call people ""mate"" doesn't help.
+Deadly, yet exhibits no fascination for gore.
+We are told, over and over, that Scully is well known for his skill with blades.
+He likely holds the record for combat engagements in Jagged Alliance 2 now due to the departure of his old friend Mike.",,,,,,
+77,,,UnitData,30,95,90,,Shadow,UI/MercsPortraits/Shadow,35,,95,Legendary,,85,Male,,12,5,,96,,22,,MercenariesOld,89,,,,,,,UI/Mercs/Shadow,,,,,,,,,,,,,,4500,,Marksmen,true,,,220,2800,USA,,none,,"This ex-Ranger and sniper has turned stalking into an art form. The Shadow could be lurking about right next to you and chances are you'd never know it. That snow drift, sand dune, or piece of shrubbery could be him. Kyle Simmons has made it his business to blend into any environment for any length of time. The Shadow brings his own camouflage supplies and he wishes to make it known up-front that he doesn't share.""
+
+Additional info:
+
+Quiet, loner, low-key professional.
+Comments are usually made to himself rather than as conversation.
+A matter-of-fact type of guy, who doesn't draw attention to himself.
+Voice: a confident sniper's whisper.",,,,,,
+79,,,UnitData,44,80,92,,Sidney,UI/MercsPortraits/SidneyN,39,,75,Legendary,Sidney,90,Male,,0,5,,70,,15,,MercenariesOld,74,,,,,,,UI/Mercs/SidneyN,,,,,,,,,,,,,,4200,,Marksmen,true,370,,220,3600,England,,,,"JA1:
+""A quiet and reflective member in excellent standing, Sidney Nettleson entertains a certain fondness for putting things to sleep permanently. Sometimes referred to as the ""Sandman,"" his low-key approach doesn't alter the fact that he is a harsh professional."" - Jagged Alliance
+
+JA2:
+
+""Whether it's sharing a spot of tea with British blue-bloods or putting a .38 slug into an unwanted nuisance, Sidney does it with poise and dignity. Sidney combines the mannerisms of the upper crust with the lighting quickness of a Wild West gunslinger. Years of avid cricket-playing have also given him a much-feared throwing arm."" - Jagged Alliance 2",,,,,,
+85,,,UnitData,11,77,92,Secret,Spike,UI/MercsPortraits/Spike,85,,82,Legendary,,91,Male,,62,8,,88,,45,,MercenariesOld,86,,the major,,,,,UI/Mercs/Spike,,,,,,,,,,,,,,0,,Leader,true,0,,,,USA,,,,"JA:
+
+""A seasoned veteran of international conflict, Major Spike Scallion was deservingly decorated for the unflinching courage he exhibited while evacuating the villagers of Kampoa under extremely heavy fire. This major commands respect and a sizeable fee."" 
+
+JA2 Alumni: 
+
+""The departure of Spike Scallion from A.I.M. was a major loss to the organization. His demeanour and unwavering command of any situation always served as a comfort for those who found themselves neck deep in it alongside him. Major Scallion was offered a lucrative long-term contract serving as a military consultant for the North Koreans and no amount of negotiation could convince him to stay.""",,,,,,
+61,,,UnitData,22,99,89,,Steroid,UI/MercsPortraits/Steroid,9,function: 000002996905CD48,100,,Steroid,48,Male,,76,,,56,,13,,MercenariesOld,97,,,,,,,UI/Mercs/Steroid,,,,,,,,,,,,,,4700,,Mechanic,true,780,,240,800,Poland,none,,low,"The transition from fighting fires to firefights has gone rather well for this ex-fireman from Warsaw. His knowledge of mechanics kept the out- dated and under-funded Polish firehouse running. His eagle-eyed vision and pumped-up persistence, now keeps the enemy on the run.
+
+Additional info:
+
+Gontarski refuses to submit to urine testing.",,,,,,
+51,,,UnitData,4,81,88,,Tex,UI/MercsPortraits/Tex,1,function: 000002996CD0C818,81,Elite,Tex,75,Male,,48,4,,77,,1,,MercenariesOld,70,,,,,,,UI/Mercs/Tex,,,,,,,,,,,,,,4700,,Marksmen,true,900,,,1800,Japan,,,,"JA1:
+
+""A new member, Tex R. Colburn joins A.I.M. from the wide open ranges of Tokyo, Japan. This asian cowboy-wannabe has limited experience, but seems to pick up on things rather quickly. However, you will have to put up with some pretty annoying ""B"" western cliches!"" 
+
+JA2 Alumni:
+
+""One of our more colourful warriors, Tex Colburn, handed in his six-shooters to fulfill his dream of starring on the big screen. As a rising star of japanese westerns, he played the lead in ""Much Dust, Many Bullets."" and has recieved glowing reviews for his roles in the classic films ""Attack of the Clydesdales"" and ""Have Honda, will travel."". 
+
+""One of out more colourful warriors, Tex Colburn has returned to the mercenary life. As a star of japanese westerns, he played the lead in ""Much Dust, Many Bullets."" and has recieved glowing reviews for his roles in the classic films ""Attack of the Clydesdales"" and ""Have Honda, Will Travel."" Tex is quick with a .357 in each hand, and travels with his own stage makeup"". - M.E.R.C. dossier, v1.13
+
+After taking leave from A.I.M. in Jagged Alliance 2, Tex appears again in Tracona, at Betty Fung Convenience Store and Video Outlet, on a celebrity tour of third-world countries to promote his latest movie, ""Wild, Wild East"".  Disgruntled with the life of a Hollywood celebrity and feeling nostalgic for his days as a mercenary with A.I.M., he can be easily persuaded to join forces with your mercenaries.",,,,,,
+93,,,UnitData,72,96,74,,Thor,UI/MercsPortraits/Thor,61,,97,Veteran,,84,Male,,35,3,,83,,11,,MercenariesOld,89,,,,,,,UI/Mercs/Thor,,,,,,,,,,,,,,4950,,Doctor,true,570,,,1600,Germany,none,long only,,"""This vegetarian New Age healer has an amazing grasp of medicine for a man who's never seen the inside of a university med school. He also has a decent grasp for killing quickly and quietly. Born on outskirts of Berlin, he now calls California home where he lives in the mountains with his newborn son and ex-wife, Cassandra.""
+
+Additional info:
+
+Slight German accent
+An easy-going new age, professional killer with scientific terminology in his dialogue
+Switches to German expressions when the situation is tense.
+He switches between the direct rigidity of his upbringing and his new found inner-tranquillity.",,,,,,
+85,,,UnitData,18,79,85,,Vicki,UI/MercsPortraits/Vicky,33,function: 000002996C508710,79,Elite,Vicki,72,Female,Aditi,95,4,,84,,28,,MercenariesOld,70,,,,,,,UI/Mercs/Vicky,,,,,,,,,,,,,,5300,,Mechanic,true,700,,290,2000,Jamaica,large,,,"""Victoria Waters is without a doubt A.I.M.s finest female mercenary. Possessing deadly aim, determination and an experience class any mercenary would be proud of, Victoria works best with her hands and is currently restoring her dads '64 Chevy."" - Jagged Alliance
+
+JA1:
+
+""Whether it's repairing a handgun or firing off automatic weapon bursts, the ambidextrous Victoria Waters works best with her hands. Aside from working for A.I.M., Vicki spends her spare time managing Vicki's Vintage Automobiles, her own restoration and antique car dealership. Despite constant teasing, Vicki insists on using the stairs no matter how tall the building."" - Jagged Alliance 2
+
+JA2:
+
+Additional info:
+Jamaican accent.
+Very methodical and determined. No-nonsense.
+The easy-going accent, contrasts her forceful dialogue. It also contrasts her mechanical abilities by giving her a sense of sophistication.",,,,,,
+75,,,UnitData,48,90,79,,Wolf,UI/MercsPortraits/Wolf,18,,90,Veteran,Wolf,86,Male,,65,3,,83,,43,,MercenariesOld,87,,,,,,,UI/Mercs/Wolf,,,,,,,,,,,,,,3500,,AllRounder,true,600,,,1150,USA,large,long only,high,"JA1:
+
+Appropriately known as ""Wolf"", Peter Sanderson has been tracking down the enemy and acquiring a well-rounded knowledge of all mercenary disciplines as a member of A.I.M. over the past four years. His reputation is that of a proven professional."" - A.I.M. Dossier, Jagged Alliance
+
+JA2:
+
+""Peter Sanderson just returned from a six-month absence. He booked off on personal leave to take an intensive physical training program and various other courses to top-off his status as a jack-of-all-trades. Having lost over forty pounds, he's in the best shape he has ever been in and A.I.M., as a result, has gladly renewed his membership.
+
+Additional info: When not on assignment, Sanderson instructs a Wolverine Civil Defense unit during the evenings."" - A.I.M. Dossier, Jagged Alliance 2
+
+Just a solid guy to have around. For his price tag and skill set he's a great addition to almost any team. Wolf does prefer the life of a loner though, and will do better if no other merc is close by.",,,,,,
+58,,,UnitData,24,69,57,Other,BiffNPC,UI/NPCsPortraits/Biff,13,,73,,BiffNPC,71,Male,,0,3,,74,2,4,,NPC,41,,,,,,,UI/NPCs/Biff,,,,,,,,0,,NPC_Biff,,,,,,ExplosiveExpert,,,,,,,,,,,true,,,,,
+82,true,,UnitData,49,60,80,Other,Bounce,UI/NPCsPortraits/Bounce,0,,75,,Bounce,80,Male,Joey,0,5,true,72,2,0,,NPC,61,,,,,,,UI/NPCs/Bounce,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+82,true,,UnitData,49,60,80,Other,BounceDiesel,UI/NPCsPortraits/Bounce,0,,75,,Bounce,80,Male,Joey,0,5,true,72,2,0,,NPC,61,,,,,,,UI/NPCs/Bounce,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,0,60,40,Thugs,Broker,UI/NPCsPortraits/LaleetheBroker,,,50,,,90,Male,Joey,0,,true,70,2,0,,NPC,50,,,,,,,UI/NPCs/LaleetheBroker,,,,,,,,0,,NPC_Lalee,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,20,60,40,Civilian,Butler,UI/NPCsPortraits/TheButler,20,,50,,,,Male,Matthew,40,,,40,2,65,,NPC,50,,,,,,,UI/NPCs/TheButler,,,,,,,,0,,NPC_Butler,,,,,,,,,,,,,,,,,true,,,,,
+80,true,Commander,UnitData,25,,85,Rebel,Chimurenga,UI/NPCsPortraits/Chimurenga,90,,85,,Chimurenga,90,Male,,0,7,,90,2,40,,NPC,90,,,,,,,UI/NPCs/Chimurenga,,,,,,,,0,,NPC_Chimurenga,,,,,,,,,,,,,,,,,true,None,true,Defeated,,
+100,true,,UnitData,30,100,100,Adonis,CorazonSantiago,UI/NPCsPortraits/CorazonSantiago,100,,100,,CorazonSantiagoEnemy,100,Female,Joanna,0,,,100,2,0,,NPC,,,,,,,,UI/NPCs/CorazonSantiago,,,true,VillagerFemale,,,,,,NPC_Corazon,,,,,,,,,,,,,,,,,true,,true,Defeated,4,
+100,true,Commander,UnitData,30,100,100,Adonis,CorazonSantiagoEnemy,UI/NPCsPortraits/CorazonSantiago,100,,100,,CorazonSantiagoEnemy,100,Female,Joanna,0,8,true,100,2,0,,NPC,,,,,,CorazonBoss,,UI/NPCs/CorazonSantiago,,,,,,,,,,NPC_Corazon,,,,,,,,,,,,,,,,,true,,true,Defeated,4,
+20,true,,UnitData,0,,15,Civilian,Deedee,UI/NPCsPortraits/DeedeeBoombastic,0,,50,,,20,Female,Amy,0,,true,50,2,0,,NPC,20,,,,,Skirmisher,,UI/NPCs/DeedeeBoombastic,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+99,,Commander,UnitData,7,,75,Legion,DiamondRedBoss,UI/NPCsPortraits/SlaveMasterGraaf,15,function: 000002996CD3A820,65,Veteran,DiamondRedBoss,95,Male,,34,6,true,90,,8,,NPC,40,,,,function: 000002996CD3B5A8,TurretBoss,true,UI/NPCs/SlaveMasterGraaf,PinDown,0,,,,,,,,NPC_Graaf,,,,,,,,,,,,,,,,,true,,true,Defeated,1,
+99,true,Commander,UnitData,7,,75,Legion,DiamondRedBossAlly,UI/NPCsPortraits/SlaveMasterGraaf,15,function: 000002996CE0EDE8,50,Veteran,DiamondRedBoss,95,Male,,34,6,true,90,2,8,,NPC,40,,,,function: 000002996CE0EDC0,TurretBoss,,UI/NPCs/SlaveMasterGraaf,,0,,,,,,,,NPC_Graaf,,,,,,,,,,,,,,,,,true,,,,1,
+90,,,UnitData,90,60,80,Other,DocRobert,UI/NPCsPortraits/DocRobert,0,,85,,DocRobert,85,Male,Russell,0,6,true,85,2,0,,NPC,75,,,,,Skirmisher,,UI/NPCs/DocRobert,,,,,,,,0,,NPC_DocRobert,,,,,,,,,,,,,,,,,true,,,,,
+80,true,,UnitData,90,,10,Civilian,DrKronenberg,UI/NPCsPortraits/DoctorKronenberg,70,,100,,DrKronenberg,70,Female,Kendra,0,,true,100,2,0,,NPC,50,,,,,,,UI/NPCs/DoctorKronenberg,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+90,true,,UnitData,90,60,50,Civilian,DrLEnfer,UI/NPCsPortraits/DrGenessier LEnfer,0,,70,,,80,Male,,0,,true,50,2,0,,NPC,50,,,,,,,UI/NPCs/DrGenessier LEnfer,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+40,true,,UnitData,0,,40,Legion,Elliot,UI/NPCsPortraits/Elliot,0,,50,,,30,Male,Russell,0,,,50,2,0,,NPC,40,,,,,,,UI/NPCs/Elliot,,,,,,,,0,,NPC_Elliot,,,,,,,,,,,,,,,,,true,,,,,
+80,true,,UnitData,20,100,50,Civilian,Emma,UI/NPCsPortraits/Emma,80,,,,,70,Female,Nicole,0,,,80,2,0,,NPC,50,,,,,,,UI/NPCs/Emma,,,true,VillagerFemale,,,,,,NPC_Emma,,,,,,,,,,,,,,,,,true,,,,,
+94,true,Commander,UnitData,31,50,64,Army,Faucheux,UI/NPCsPortraits/Faucheux,82,function: 00000299682DC6E0,77,,FaucheuxEnemy,95,Male,Russell,37,7,true,91,2,32,,NPC,53,,,,,,true,UI/NPCs/Faucheux,,40,true,,,,,,,NPC_Faucheux,,,,,,,,,,,,,,,,,true,,true,,4,
+94,true,Commander,UnitData,31,50,64,Army,FaucheuxEnemy,UI/NPCsPortraits/Faucheux,82,function: 00000299682DCB88,77,,FaucheuxEnemy,95,Male,Russell,37,7,true,91,2,32,,NPC,53,,,,,,true,UI/NPCs/Faucheux,,40,,,,,,,,NPC_Faucheux,,,,,,,,,,,,,,,,,true,,true,,4,
+79,,,UnitData,50,79,84,Secret,FlayNPC,UI/MercsPortraits/Flay,12,,79,Veteran,Flay,78,Male,,18,2,true,63,2,0,,NPC,80,,,,,,,UI/Mercs/Flay,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+80,true,Commander,UnitData,0,,90,Other,FleatownBoss,UI/NPCsPortraits/BossBlaubert,,,80,,FleatownBoss,80,Male,Geraint,0,7,true,90,2,0,,NPC,90,,,,,,,UI/NPCs/BossBlaubert,,,,,,,,,,NPC_FleatownBoss,,,,,,,,,,,,,,,,,true,None,true,Defeated,1,
+24,,Commander,UnitData,0,,80,Civilian,Granny,UI/NPCsPortraits/Granny,10,,70,,,34,Female,Aditi,0,7,true,80,2,0,,NPC,70,,,,,,,UI/NPCs/GrannyCohani,,,,,,,,,,NPC_Granny,,,,,,,,,,,,,,,,,true,,,,,true
+50,true,,UnitData,0,60,45,Civilian,GreasyBasil,UI/NPCsPortraits/GreasyBasil,50,,70,,,65,Male,Russell,70,,,50,1,10,,NPC,70,,,,,,,UI/NPCs/GreasyBasil,,,true,,,,,0,,NPC_GreasyBasil,,,,,,,,,,,,,,,,,true,,,,,
+96,,Commander,UnitData,87,50,88,Other,Gunther,UI/NPCsPortraits/GuntherEsser,94,,50,,Gunther,90,Male,Joey,7,10,,40,2,5,,NPC,25,,,,,,,UI/NPCs/GuntherEsser,,100,true,,,,,,,NPC_Siegfried,,,,,,,,,,,,,,,,,true,,,,,true
+75,true,,UnitData,25,,75,Other,HeadshotHue,UI/NPCsPortraits/HeadshotHue,50,,50,,,,Male,Joey,0,,,,2,0,,NPC,40,,,,,,,UI/NPCs/HeadshotHue,,,,,,,,,,NPC_HeadshotHue,,,,,,,,,,,,,,,,,true,,,,,
+20,true,,UnitData,10,60,50,Civilian,Herman,UI/NPCsPortraits/Herman,0,,,,,,Male,,10,,,50,2,0,,NPC,,,,,,,,UI/NPCs/Herman,,,true,,,,,0,,NPC_Herman,,,,,,,,,,,,,,,,,true,,,,,
+50,true,Marksman,UnitData,15,60,78,Other,Hyena,UI/NPCsPortraits/HyenaGilbert,,,69,,,83,Male,,15,,true,78,2,0,,NPC,50,,,,,,true,UI/NPCs/HyenaGilbert,PinDown,100,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+70,true,,UnitData,30,,,Civilian,Itsadi,UI/NPCsPortraits/Itsadi,0,,,,,70,Male,,40,,,70,2,10,,NPC,,,,,,,,UI/NPCs/Itsadi,,,,,,,,,,NPC_Itsadi,,,,,,,,,,,,,,,,,true,,,,,
+80,true,Commander,UnitData,0,,88,Legion,Jackhammer,UI/NPCsPortraits/Jackhammer,,,95,,Jackhammer,70,Male,,30,7,true,90,2,0,,NPC,90,,,,,,,UI/NPCs/Jackhammer,,,,,,,,,,NPC_Jackhammer,,,,,,,,,,,,,,,,,true,None,true,Defeated,1,
+50,true,,UnitData,10,60,50,Civilian,KingChicken,UI/NPCsPortraits/KingChicken,0,,,,,50,Male,Matthew,0,,,50,2,0,,NPC,50,,,,,Brute,,UI/NPCs/KingChicken,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+30,,,UnitData,70,69,70,Secret,LarryNPC,UI/MercsPortraits/Larry_Addiceted,18,,69,,Larry,79,Male,,14,3,,77,2,92,,NPC,67,,,,,,,UI/Mercs/Larry_Addicted,,,,,,,,0,,,,,,,,ExplosiveExpert,,,,,,,,,,"JA1:
+
+""On probationary standing, Larry Roachburn, a somewhat respected explosives expert, was a young survivor of the C.I.A./L.S.D. years. And when not on assignment, he continues to subject his body to the whims of pharmaceutical researchers around the world.""
+
+JA2 Alumni:
+
+""After eight attempts at rehab without any sustained success, AIM was little choice but to terminate Larry Roachburn's membership within the organization. From what we understand, the death of his father has persuaded him to take yet another attempt at ridding himself of his demons and ridding his body from decades of toxicity. The organization wishes him the best of luck in all his future endeavors.""
+
+JA2 MERC:
+
+""There's no denying that Larry has had his share of substance abuse problems in the past, and despite many attempts at rehabilitation, the demons remain. Roachburn has recently spent six months at an exclusive and classy rehab center undergoing treatment. Having completed the program, he proclaims himself cured and ready for duty.
+
+Additional Info:Larry spent most of his spare time in rehab studying pharmacology which has tremendously improved his medical knowledge.""
+
+Additional Info
+
+Larry's drug habits have made him forgetful, and he will often stop in the middle of a task in need of a reminder, losing AP.
+His brother Gary derisively refers to him as ""Anything But A Placebo"" Larry.
+
+Jagged Alliance/Deadly Games
+Having ruined his health with drugs, Larry loses rather than gains stats at the end of a day, a trait normally reserved to old mercs.
+
+Jagged Alliance 2
+
+Larry has two different personalities - clean and relapsed. After hiring, he can relapse under certain conditions, losing a lot of stat points, making him almost useless.
+
+As long as he stays clean he's the sociable sort, and loves to hang around other mercs (with some exceptions). However, once relapsed he loses focus and becomes forgetful, preferring the loner lifestyle.
+
+Relapse conditions
+
+Stationary passing time while assigned to squad, carrying energy booster, regeneration booster, medical kit, or any type of alcohol. First aid kits are excluded.
+
+Stationary passing time while assigned to squad, carrying none of the above items, in any city sector that has a bar.
+The easiest way to prevent a relapse while carrying any of the above items, is keeping Larry busy, assigning him to squad only to travel and fight. And even though sleeping whilst assigned to squad (eg. after travelling) would be safe, there's no wake-up call and Larry's very quick to get his hands on something ""groovy"".
+
+Getting clean
+
+Luckily there's an easy way to get him clean. A one day speed course called ""walkabout"". Within a short while, needing a rest at least once, he's as fit as a fiddle again. As mentioned above, carrying any of the ""relapse triggering items"" isn't a problem per se, just keep a very close tab on him waking up.
+
+Due to strength loss, Larry can be severely encumbered while on the ""walkabout"" and damage his strength and/or health. Damaged strength will be temporary and reset as soon as he's clean, even though it still looks red for a short while. Damaged health will be permanent until dismissed! Dismissing him will reset health back to what it was.",true,,,,,
+24,true,,UnitData,0,50,76,Legion,LegionRaider_Jose,UI/NPCsPortraits/Bastien,10,,79,,LegionRaider_Jose,81,Male,Geraint,0,,true,72,2,0,,NPC,44,,,,,,,UI/NPCs/Bastien,,,,,,,,,,NPC_Bastien,,,,,,,,,,,,,,,,,true,,,,,
+80,true,,UnitData,20,50,40,Civilian,Luc,UI/NPCsPortraits/luc,40,,50,,,,Male,Matthew,40,,,50,2,0,,NPC,40,,,,,,,UI/NPCs/Luc,,,true,,,,,0,,NPC_Luc,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,0,,90,Other,Luigi,UI/NPCsPortraits/Luigi,,function: 000002996556CC08,,,,70,Male,Russell,0,3,true,80,2,0,,NPC,,,,,function: 0000029967220988,Brute,,UI/NPCs/Luigi,,,,,,,,,,NPC_Luigi,,,,,,,,,,,,,,,,,true,None,,,1,
+70,true,,UnitData,50,,10,Civilian,Maman,UI/NPCsPortraits/Maman,70,,,,,,Female,Kendra,0,,,30,2,0,,NPC,50,,,,,,,UI/NPCs/Maman,,,true,,,,,0,,NPC_Maman,,,,,,,,,,,,,,,,,true,,,,,
+40,true,,UnitData,10,60,30,Civilian,Martha,UI/NPCsPortraits/Martha,50,,50,,,,Female,Kendra,0,,,,1,0,,NPC,40,,,,,,,UI/NPCs/Martha,,,true,VillagerFemale,,,,0,,NPC_Martha,,,,,,,,,,,,,,,,,true,,,,,
+80,true,,UnitData,20,,20,Civilian,MikeDitch,UI/NPCsPortraits/MikeDitch,,,50,,,,Male,Joey,20,,,50,2,0,,NPC,50,,,,,,,UI/NPCs/MikeDitch,,,,,,,,,,NPC_Hermit,,,,,,,,,,,,,,,,,true,,,,,
+10,true,,UnitData,10,,10,Civilian,Mollie,UI/NPCsPortraits/Mollie,0,,40,,,50,Female,Amy,0,,,,2,0,,NPC,25,,,,,,,UI/NPCs/Mollie,,,,VillagerFemale,,,,0,,NPC_Mollie,,,,,,,,,,,,,,,,,true,,,,,
+30,true,,UnitData,0,,0,Civilian,Monday,UI/NPCsPortraits/Monday,0,,50,,,10,Male,,0,,,30,1,0,,NPC,50,,,,,,,UI/NPCs/Monday,,,,,,,,,,NPC_Monday,,,,,,,,,,,,,,,,,true,,,,,
+,true,,UnitData,10,60,40,Civilian,Pastor,UI/NPCsPortraits/Pastor,80,,,,,,Male,Matthew,20,,,30,2,0,,NPC,50,,,,,Brute,,UI/NPCs/Pastor,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+56,,Commander,UnitData,12,40,77,Legion,Pierre,UI/MercsPortraits/Pierre,39,function: 0000029970DA2600,81,,,68,Male,,5,6,true,72,2,15,,NPC,65,,,,function: 0000029970DA2720,,,UI/Mercs/Pierre,,,,,,,,,,NPC_Pierre,,,,,,,,,,,,,,,,,true,,true,Defeated,,
+92,true,,UnitData,14,,82,Legion,President,UI/NPCsPortraits/President,85,,86,Veteran,,63,Male,,9,7,,74,2,23,,NPC,83,,,,,,,UI/NPCs/President,,,,,,,,,,NPC_President,,,,,,,,,,,,,,,,,true,None,,,,
+85,true,,UnitData,30,,50,Civilian,Reporter,UI/NPCsPortraits/Reporter,30,,70,,,,Female,Emma,0,,,70,2,0,,NPC,55,,,,,,,UI/NPCs/Reporter,,,,VillagerFemale,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+96,,Commander,UnitData,87,50,88,Other,Sample_Horatio,,94,,50,,,90,Male,Joey,7,4,,40,2,5,,NPC,25,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+90,true,,UnitData,70,60,30,Civilian,Shaman,UI/NPCsPortraits/SangomaTheShaman,,,50,,,50,Male,,0,,,30,2,0,,NPC,40,,,,,,,UI/NPCs/SangomaTheShaman,,,,,,,,0,,NPC_Shaman,,,,,,,,,,,,,,,,,true,,,,,
+62,,,UnitData,,85,72,Secret,SmileyNPC,UI/MercsPortraits/Smiley,54,function: 00000299676F7438,82,Elite,Smiley,56,Male,,5,2,,78,2,5,,NPC,73,,,,,,,UI/Mercs/Smiley,,,,,,,,0,,NPC_Smiley,,,,,,Doctor,,,,,,,,,,,true,,,,,true
+84,true,Recon,UnitData,65,60,96,Other,TheBeast,UI/NPCsPortraits/TheBeast,70,,93,,,96,Female,Kendra,69,8,true,95,2,74,,NPC,87,,,,,Skirmisher,true,UI/NPCs/TheBeast,,100,,,,,,0,,NPC_TheBeast,,,,,,,,,,,,,,,,,true,,,,,true
+85,,Commander,UnitData,11,,92,Legion,TheMajor,UI/MercsPortraits/unknown,85,,82,Legendary,Spike,91,Male,,62,8,true,88,2,45,,NPC,86,,,,,TheMajor,,UI/Mercs/Spike,,,,,,,,,,NPC_TheMajor,,,,,,,,,,,,,,,,,true,None,true,Defeated,,
+50,true,,UnitData,30,,20,Civilian,TimTurtledove,UI/NPCsPortraits/TimTurtledove,40,,50,,,30,Male,,0,,,50,2,0,,NPC,50,,,,,,,UI/NPCs/TimTurtledove,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+80,true,,UnitData,70,,20,Civilian,Witch,UI/NPCsPortraits/LamitheWitch,,,70,,,80,Female,Nicole,0,,,80,2,0,,NPC,70,,,,,,,UI/NPCs/LamitheWitch,,,,,,,,,,NPC_Witch,,,,,,,,,,,,,,,,,true,,,,,
+20,true,,UnitData,0,60,40,Civilian,Wlad,UI/NPCsPortraits/WladtheTinkerer,0,,,,,40,Male,Matthew,0,,,40,2,0,,NPC,,,,,,,,UI/NPCs/WladtheTinkerer,,,,,,,,0,,NPC_Wlad,,,,,,,,,,,,,,,,,true,,,,,
+100,true,,UnitData,100,60,30,Civilian,DrGruselheim,UI/NPCsPortraits/DrGruselhaim.png,,,55,,DrGruselheim,65,Male,,100,,,50,2,100,,NPC_DLC,45,,,,,,,UI/NPCs/Dr Gruselhaim.png,,,,,,,,0,,NPC_DrGruselheim,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,0,60,85,Civilian,Abraham,UI/MercsPortraits/unknown,70,,75,,,,Male,,10,,true,70,1,0,,NPC_banter,70,,Twin Manors,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+30,true,Heavy,UnitData,0,85,40,Rebel,AnneLeMitrailleur,UI/EnemiesPortraits/RebelStormer,20,,62,,AnneLeMitrailleur,39,Female,Kendra,0,2,true,47,2,0,,NPC_banter,59,,suppressive fire (2),,,HeavyGunner,,,,,,VillagerFemale,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+80,,,UnitData,10,,70,Civilian,Baronne,,90,,70,,,70,Female,Salli,30,3,true,80,1,30,,NPC_banter,80,,,,,,,,,,,VillagerFemale,,,,,,NPC_Baronne,,,,,,,,,,,,,,,,,true,,,,,
+39,true,,UnitData,0,,22,Civilian,BillyBoy,UI/MercsPortraits/unknown,0,,61,,,27,Male,Matthew,0,,,35,1,0,,NPC_banter,50,,Ernie Village,,,,,,,,,,,,,0,,NPC_BillyBoy,,,,,,,,,,,,,,,,,,,,,,
+0,,Stormer,UnitData,0,,0,Other,Bonecrusher,,0,function: 0000029971C6D5C0,100,,,70,Male,Russell,0,5,true,95,2,0,,NPC_banter,100,,Landsbach,,,Brute,,,,,,,,,,,,NPC_Bonecrusher,,,,,,,,,,,,,,,,,,,,,,
+50,,,UnitData,0,,0,Other,Bulldozer,,0,,80,,,70,Male,Russell,0,4,true,70,1,0,,NPC_banter,100,,Landsbach,,,Brute,,,,,,,,,,,,NPC_Bulldozer,,,,,,,,,,,,,,,,,,,,,,
+20,true,,UnitData,0,,50,Legion,Butcher,,20,,90,,Butcher,40,Male,,0,,true,40,1,0,,NPC_banter,80,,,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,,UnitData,0,60,,Civilian,Captain_Pierrot,,75,,,,,70,Male,Matthew,0,,true,85,1,50,,NPC_banter,50,,Abandoned Beach,,,Brute,,,,,,,,,,0,,NPC_CaptainPierrot,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,50,60,,Civilian,Caroline,UI/MercsPortraits/unknown,70,,,,,80,Female,Raveena,0,,true,85,1,0,,NPC_banter,50,,Twin Manors,,,Skirmisher,,,,,,VillagerFemale,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+70,,,UnitData,5,,95,Civilian,DirtyHenri,,50,,75,,,85,Male,,10,8,true,90,,10,,NPC_banter,80,,,,,Skirmisher,true,,Overwatch,,,,,,,,,NPC_DirtyHenri,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,75,Other,Doorknob,,40,,90,,Doorknob,70,Male,Matthew,0,4,true,80,1,0,,NPC_banter,90,,Landsbach,,,Skirmisher,,,,,,,,,,,,NPC_Doorknob,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,85,Other,DoorknobDiesel,,40,,90,,Doorknob,80,Male,Matthew,0,4,true,90,1,0,,NPC_banter,90,,Landsbach,,,Skirmisher,,,,,,,,,,,,NPC_Doorknob,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,55,Other,DrFracture,,35,,70,,,80,Male,Russell,25,4,true,80,1,20,,NPC_banter,80,,Landsbach,,,Brute,,,,,,,,,,,,NPC_DrFracture,,,,,,,,,,,,,,,,,,,,,,
+50,,,UnitData,0,,55,Other,EraserHead,,35,,,,,100,Male,Russell,25,5,true,100,1,20,,NPC_banter,70,,Landsbach,,,Brute,,,,,,,,,,,,NPC_EraserHead,,,,,,,,,,,,,,,,,,,,,,
+50,true,,UnitData,0,,55,Other,Fournier,,35,,,,,,Male,,25,,,50,1,20,,NPC_banter,,,,,,,,,,,,,,,,,,NPC_Fournier,,,,,,,,,,,,,,,,,true,,,,,
+10,true,,UnitData,0,,85,Civilian,FraBaggz,,10,,80,,,65,Male,,10,,true,75,1,0,,NPC_banter,90,,,,,,,,,,,,,,,,,NPC_FraBaggz,,,,,,,,,,,,,,,,,true,,,,,
+20,true,,UnitData,0,,20,Civilian,Frederic,,0,,,,,30,Male,,30,,,30,1,0,,NPC_banter,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Demolitions,UnitData,0,50,59,Other,GangHannah,UI/EnemiesPortraits/MilitiaDemo,30,,61,,GangTrudy,30,Female,Nicole,0,7,true,49,2,90,,NPC_banter,,,Mad Hannah,,,Skirmisher,true,,,,,AnneLeMitrailleur,,,,,,NPC_Hannah,,,,,,,,,,,,,,,,,true,,,,,true
+79,true,Stormer,UnitData,0,60,48,Other,GangKayla,UI/EnemiesPortraits/RebelHeavy,9,,82,,GangTrudy,91,Female,Nicole,0,7,true,96,2,11,,NPC_banter,81,,Kayla the Cutter,,,Brute,true,,,,,AnneLeMitrailleur,,,,,,NPC_Kayla,,,,,,,,,,,,,,,,,true,,,,,true
+16,true,Stormer,UnitData,0,100,63,Other,GangTrudy,UI/EnemiesPortraits/RebelDemo,65,,75,,GangTrudy,93,Female,Nicole,0,7,true,69,2,33,,NPC_banter,95,,Rude Trudy,,,Skirmisher,true,,,,,AnneLeMitrailleur,,,,,,NPC_Trudy,,,,,,,,,,,,,,,,,true,,,,,true
+30,true,Heavy,UnitData,0,85,67,Other,GangVinnie,UI/EnemiesPortraits/AdonisSniper,20,,62,,GangTrudy,39,Female,Nicole,0,7,true,47,2,0,,NPC_banter,59,,Old Vinnie,,,HeavyGunner,true,,,,,AnneLeMitrailleur,,,,,,NPC_Vinnie,,,,,,,,,,,,,,,,,true,,,,,true
+30,true,Recon,UnitData,0,50,86,Other,GangWilma,UI/EnemiesPortraits/RebelSniper,20,,61,,GangTrudy,52,Female,Nicole,0,7,true,57,2,0,,NPC_banter,49,,Gal Wilma,,,Skirmisher,true,,,,,AnneLeMitrailleur,,,,,,NPC_Wilma,,,,,,,,,,,,,,,,,true,,,,,true
+20,true,,UnitData,0,,10,Civilian,GeorgeSenior,,0,,45,,,10,Male,,0,,,30,1,0,,NPC_banter,20,,Pantagruel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+40,true,,UnitData,0,,20,Civilian,Gouvernour,,,,65,,,45,,,0,,,35,1,0,,NPC_banter,50,,,,,,,,,,,,,,,,,NPC_Gouvernour,,,,,,,,,,,,,,,,,,,,,,
+30,true,,UnitData,10,,55,Civilian,Heinrich,,10,,65,,,70,Male,,0,,,50,1,0,,NPC_banter,,,Pantagruel (Red Dragon bartender),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+,true,,UnitData,50,60,0,Civilian,Justine,UI/MercsPortraits/unknown,0,,40,,,50,Female,Raveena,0,,,30,1,0,,NPC_banter,30,,Middle of Nowhere,,,,,,,,,VillagerFemale,,,,0,,NPC_Justine,,,,,,,,,,,,,,,,,true,,,,,
+15,true,,UnitData,0,,,Civilian,LuckyVeinard,,0,,75,,,65,,,10,,,75,1,10,,NPC_banter,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+0,true,,UnitData,0,,30,Other,Lurch,,0,,100,,,40,Male,,0,,true,50,1,0,,NPC_banter,90,,,,,,,,,,,,,,,,,NPC_Lurch,,,,,,,,,,,,,,,,,true,,,,,
+40,true,,UnitData,0,,90,Civilian,MaBaggz,,70,,65,,,30,Female,Salli,0,,true,30,1,75,,NPC_banter,50,,,,,,,,,,,VillagerFemale,,,,,,NPC_MaBaggz,,,,,,,,,,,,,,,,,true,,,,,
+75,true,,UnitData,25,,75,Other,MaBaxter,,50,,50,,,,Female,Joey,0,,,,1,0,,NPC_banter,40,,,,,,,,,,true,VillagerFemale,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,true,,UnitData,15,60,40,Civilian,Manny,UI/EnemiesPortraits/ThugSoldier,10,,,,,,Male,Matthew,10,,,50,1,0,,NPC_banter,65,,Pantagruel Outskirts,,,,,,,,,,,,,0,,NPC_Manny,,,,,,,,,,,,,,,,,true,,,,,
+10,true,,UnitData,0,60,30,Civilian,Mario,UI/EnemiesPortraits/ThugArtillery,0,,40,,,40,Male,Matthew,40,,,40,1,0,,NPC_banter,,,Middle of Nowhere,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,0,,55,Other,Mole,,35,,,,,,Male,Geraint,25,,true,50,1,20,,NPC_banter,,,"Landsbach, noncombatant",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,75,Other,MolotovUnit,,35,,85,,,75,Male,Geraint,25,7,true,75,1,85,,NPC_banter,80,,Landsbach,,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+85,true,,UnitData,0,,78,Civilian,MrGattz,,10,,65,,,95,Male,,0,6,true,95,,0,,NPC_banter,,,,,,Skirmisher,true,,,,,,,,,,,NPC_Gattz,,,,,,,,,,,,,,,,,true,,,,,
+10,true,,UnitData,0,,0,Civilian,MrsGouvernour,,0,,65,,,10,Female,Aditi,0,,,30,1,0,,NPC_banter,20,,,,,,,,,,,VillagerFemale,,,,,,NPC_MrsGouvernour,,,,,,,,,,,,,,,,,,,,,,
+90,true,,UnitData,0,60,30,Civilian,Pangloom,UI/EnemiesPortraits/ThugDemo,0,,50,,,30,Male,Matthew,0,,,50,1,0,,NPC_banter,30,,Camp Bien Chien,,,,,UI/Enemies/LegionRaider,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+10,true,,UnitData,0,,0,Civilian,Peta,,0,,50,,,40,Female,Amy,0,,,50,1,0,,NPC_banter,45,,,,,,,,,,,VillagerFemale,,,,,,NPC_Peta,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,55,Other,Referee,,35,,,,,,Male,,25,,,50,1,20,,NPC_banter,,,"Landsbach, noncombatant",,,,,,,,,,,,,,,NPC_Referee,,,,,,,,,,,,,,,,,,,,,,
+50,,,UnitData,0,,55,Other,Sebastocrator,,35,,100,,,80,Male,Russell,25,5,true,70,1,20,,NPC_banter,80,,Landsbach,,,Brute,,,,,,,,,,,,NPC_Sebastocrator,,,,,,,,,,,,,,,,,,,,,,
+85,,,UnitData,0,,25,Other,Tedd,,0,,95,,,80,Male,,0,7,true,95,1,0,,NPC_banter,90,,,,,Brute,true,,,,,,,,,,,NPC_Ted,Brute,,,,,,,,,,,,,,,,,,,,,
+50,true,,UnitData,0,,55,Other,TheHogLady,,35,,,,,,Female,Nicole,25,,,50,1,20,,NPC_banter,,,Chalet De La Paix,,,,,,,,,GangTrudy,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+23,true,Commander,UnitData,6,80,70,Thugs,ThugBoss_Foreman,UI/EnemiesPortraits/ThugOfficer,22,function: 0000029970C9E018,82,,ThugGunner,80,Male,Joey,12,5,true,76,2,14,,NPC_banter,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,UnitData,,,,Other,TourGuide,,,,,,,,,,,,,,1,,,NPC_banter,,,,,,,,,,,,VillagerFemale,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+50,,,UnitData,0,,55,Other,Travis,,35,,,,,,Male,,25,,,50,1,20,,NPC_banter,,,"Landsbach, noncombatant",,,,,,,,,,,,,,,NPC_Travis,,,,,,,,,,,,,,,,,true,,,,,
+25,true,,UnitData,15,,25,Civilian,UncleBaggz,,0,,95,,,55,Male,,20,,true,30,1,85,,NPC_banter,50,,,,,,,,,,,,,,,,,NPC_UncleBaggz,,,,,,,,,,,,,,,,,true,,,,,
+50,true,,UnitData,0,,55,Other,Wanda,,35,,,,,,Female,Aditi,25,,,50,1,20,,NPC_banter,,,Chalet De La Paix,,,,,,,,,VillagerFemale,,,,,,NPC_Wanda,,,,,,,,,,,,,,,,,true,,,,,
+19,true,,UnitData,0,60,15,Legion,Weirdo,UI/EnemiesPortraits/LegionManiac,9,,,,,74,Male,,0,2,true,55,1,11,,NPC_banter,61,,River Bank (melee charger 2),,,Brute,,UI/Enemies/LegionRaider,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+50,true,,UnitData,0,,55,Other,Xavier,,35,,,,,,Male,,25,,,50,1,20,,NPC_banter,,,Chalet De La Paix,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,true,,,,,
+20,true,,UnitData,0,60,40,Civilian,civ_Antoine,UI/EnemiesPortraits/ThugSoldier,0,,,,,40,Male,Matthew,0,,,40,1,0,,NPC_banter,,,Refugee Camp,,,,,,,,,,,,,0,,NPC_Antoine,,,,,,,,,,,,,,,,,true,,,,,
+40,true,,UnitData,10,,20,Civilian,civ_Claudette,UI/MercsPortraits/unknown,30,,50,,civ_Claudette,,Female,Aditi,0,,true,,1,0,,NPC_banter,50,,Refugee Camp,,,,,,,,,VillagerFemale,,,,0,,NPC_Claudette,,,,,,,,,,,,,,,,,true,,,,,
+0,true,,UnitData,0,,0,Civilian,civ_Karen,UI/MercsPortraits/unknown,0,,50,,civ_Karen,30,Female,Amy,0,,,30,1,0,,NPC_banter,30,,Refugee Camp,,,,,,,,,VillagerFemale,,,,0,,NPC_Karen,,,,,,,,,,,,,,,,,true,,,,,
+30,true,,UnitData,0,60,30,Civilian,civ_Pepe,UI/EnemiesPortraits/ThugSoldier,0,,50,,,,Male,Matthew,30,,,40,1,0,,NPC_banter,50,,Refugee Camp,,,,,UI/Enemies/LegionRaider,,,,,,,,0,,NPC_Pepe,,,,,,,,,,,,,,,,,true,,,,,
+85,true,Beast,UnitData,0,60,0,,Flay_Pet_Hyena,UI/EnemiesPortraits/Hyena_Legion,40,,46,,,77,,,0,,,84,2,0,,Other Combatants,64,,,,,Beast_Hyena,,UI/Enemies/LegionRaider,,,,,,Small animal,Hyena,,,,,,,,,,,,,,,,,,,,,,,,,
+,true,Soldier,UnitData,16,50,80,Civilian,Freebooter,UI/EnemiesPortraits/RebelOfficer,59,,74,,LegionRaider,71,Male,Joey,7,6,true,81,2,5,,Other Combatants,68,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+90,,Marksman,UnitData,30,50,90,Other,Grotto_Loony,UI/EnemiesPortraits/InfectedMale05,90,,90,,ThugGunner,90,Male,Joey,30,7,true,90,2,30,,Other Combatants,90,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,84,SuperSoldiers,Landsbach_SuperSoldier_Assault,UI/EnemiesPortraits/ArmyHeavy,50,,75,Elite,SuperSoldier_Assault,75,Male,Joey,50,6,true,75,2,39,,Other Combatants,85,,,,function: 000002996A415478,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Recon,UnitData,55,50,82,SuperSoldiers,Landsbach_SuperSoldier_Skirmisher,UI/EnemiesPortraits/ArmyRecon,20,function: 000002996A4163F8,70,Veteran,SuperSoldier_Assault,83,Male,Joey,56,5,true,99,2,38,,Other Combatants,47,,,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Stormer,UnitData,55,50,70,SuperSoldiers,Landsbach_SuperSoldier_Stormer,UI/EnemiesPortraits/ThugHeavy,20,function: 000002996AC36FB8,96,Veteran,SuperSoldier_Assault,83,Male,Joey,56,8,true,97,,38,,Other Combatants,47,,,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,80,Other,Landsbach_Thug,UI/EnemiesPortraits/RebelRecon,50,,75,Elite,ThugGunner,75,Male,Joey,50,4,true,75,2,39,,Other Combatants,85,,,,function: 000002996A8312C0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,80,Other,Landsbach_Thug_Diesel,UI/EnemiesPortraits/RebelRecon,50,,75,Elite,ThugGunner,75,Male,Joey,50,4,true,75,2,39,,Other Combatants,85,,,,function: 000002996A833A20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,Soldier,UnitData,0,50,63,,MERCSurvivor,UI/EnemiesPortraits/MilitiaSoldier,10,,57,,MERCSurvivor,40,Male,Joey,0,2,true,48,2,0,,Other Combatants,53,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+40,,,UnitData,0,50,50,Other,Poacher,UI/MercsPortraits/unknown,0,,15,,ThugGunner,50,Male,Matthew,20,,true,70,2,0,,Other Combatants,40,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+40,,,UnitData,0,50,50,Other,Poacher_2,UI/MercsPortraits/unknown,0,,14,,ThugGunner,50,Male,Russell,20,,true,70,2,0,,Other Combatants,40,,,,,,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,,,
+55,true,Recon,UnitData,0,50,66,Rebel,RebelFlanker,UI/EnemiesPortraits/RebelRecon,29,,53,,RebelSoldier,74,Male,Joey,0,3,true,80,2,0,,Rebels,48,,competent flanker,,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Rebel,RebelGrenadier,UI/EnemiesPortraits/RebelDemo,14,,63,,RebelSoldier,30,Male,Russell,0,2,true,,2,65,,Rebels,75,,grenade thrower (2),,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,55,Rebel,RebelGunner,UI/EnemiesPortraits/RebelHeavy,20,,62,,RebelSoldier,39,Male,Joey,0,2,true,47,2,0,,Rebels,59,,suppressive fire (2),,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+86,true,Commander,UnitData,45,80,69,Rebel,RebelSentry,UI/EnemiesPortraits/RebelOfficer,73,,66,,RebelSoldier,,Male,Joey,54,5,true,71,2,57,,Rebels,63,true,leader (5),Maquis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,88,Rebel,RebelSniper,UI/EnemiesPortraits/RebelSniper,33,,49,,RebelSoldier,76,Male,Joey,0,3,true,44,1,0,,Rebels,41,,sniper assassin (3),,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,true,Marksman,UnitData,0,50,91,Rebel,RebelSniper_female,UI/EnemiesPortraits/RebelSniper,33,,41,,AnneLeMitrailleur,89,Female,Kendra,0,3,true,44,1,0,,Rebels,41,,sniper assassin (3),,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,true,Soldier,UnitData,0,50,63,Rebel,RebelSoldier,UI/EnemiesPortraits/RebelSoldier,10,,57,,RebelSoldier,40,Male,Joey,0,2,true,48,2,0,,Rebels,53,,smg/assault rifle enemy (2),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,84,SuperSoldiers,SuperSoldier_Assault,UI/EnemiesPortraits/ArmyHeavy,50,,75,Elite,SuperSoldier_Assault,75,Male,Joey,50,6,true,75,2,39,,SiegfriedSuperSoldiers,85,,overwatch soldier,,function: 000002996905F130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Soldier,UnitData,52,50,84,SuperSoldiers,SuperSoldier_Assault_Stronger,UI/EnemiesPortraits/ArmyHeavy,50,,75,Elite,SuperSoldier_Assault,75,Male,Joey,50,6,true,75,2,39,,SiegfriedSuperSoldiers,85,,overwatch soldier,,function: 000002996A115460,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+56,true,Heavy,UnitData,52,50,90,SuperSoldiers,SuperSoldier_EmplacementGunner,UI/EnemiesPortraits/AdonisHeavy,50,,75,Elite,SuperSoldier_Assault,75,Male,Joey,50,6,true,85,4,39,,SiegfriedSuperSoldiers,95,,dedicated gunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,true,Stormer,UnitData,0,60,38,SuperSoldiers,SuperSoldier_Linebreaker,UI/EnemiesPortraits/ArmyRecon.png,9,,53,,SuperSoldier_Assault,91,Male,,0,6,true,96,2,11,,SiegfriedSuperSoldiers,91,,melee gas grenades,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,true,Stormer,UnitData,0,60,38,SuperSoldiers,SuperSoldier_Linebreaker_Stronger,UI/EnemiesPortraits/ArmyRecon.png,9,,53,,SuperSoldier_Assault,91,Male,,0,6,true,96,2,11,,SiegfriedSuperSoldiers,91,,melee gas grenades,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+35,true,Medic,UnitData,93,80,74,SuperSoldiers,SuperSoldier_Medic,UI/EnemiesPortraits/ArmyMedic.png,20,function: 0000029965C3B368,42,,SuperSoldier_Assault,41,Male,Joey,12,5,true,93,1,5,,SiegfriedSuperSoldiers,42,,stim packs and debuff shotgun,,,Medic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Artillery,UnitData,0,50,41,SuperSoldiers,SuperSoldier_Ordnance,UI/EnemiesPortraits/AdonisDemo.png,31,function: 0000029965C3D420,95,Veteran,SuperSoldier_Assault,64,Male,Russell,0,7,true,88,2,35,,SiegfriedSuperSoldiers,87,,anti-sniper ordnance user,,function: 0000029965C3D628,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Recon,UnitData,55,50,82,SuperSoldiers,SuperSoldier_Skirmisher,UI/EnemiesPortraits/ArmyRecon,20,function: 000002996D31D2D0,70,Veteran,SuperSoldier_Assault,83,Male,Joey,56,5,true,99,2,38,,SiegfriedSuperSoldiers,47,,cqc grenadier,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Recon,UnitData,55,50,82,SuperSoldiers,SuperSoldier_Skirmisher_Stronger,UI/EnemiesPortraits/ArmyRecon,20,function: 000002996C720428,70,Veteran,SuperSoldier_Assault,83,Male,Joey,56,5,true,99,2,38,,SiegfriedSuperSoldiers,47,,cqc grenadier,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Stormer,UnitData,55,50,70,SuperSoldiers,SuperSoldier_Stormer,UI/EnemiesPortraits/ThugHeavy,20,function: 000002996D31E6C8,96,Veteran,SuperSoldier_Assault,83,Male,Joey,56,8,true,97,,38,,SiegfriedSuperSoldiers,47,,tough flanker,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+77,true,Stormer,UnitData,55,50,70,SuperSoldiers,SuperSoldier_Stormer_Stronger,UI/EnemiesPortraits/ThugHeavy,20,function: 000002996C722628,96,Veteran,SuperSoldier_Assault,83,Male,Joey,56,8,true,97,,38,,SiegfriedSuperSoldiers,47,,tough flanker,,,Skirmisher,true,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,true,Commander,UnitData,6,80,70,Thugs,ThugBoss,UI/EnemiesPortraits/ThugOfficer,22,function: 00000299682F50D8,82,,ThugGunner,80,Male,Joey,12,5,true,76,2,14,,Thugs,75,,overwatcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,true,Commander,UnitData,6,80,89,Thugs,ThugBoss_Stronger,UI/EnemiesPortraits/ThugOfficer,22,function: 0000029970CA06D0,92,,ThugGunner,80,Male,Joey,12,7,true,76,2,14,,Thugs,75,,"+ accuracy, +health",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+23,true,Commander,UnitData,6,80,89,Thugs,ThugBoss_Stronger_Elite,UI/EnemiesPortraits/ThugOfficer,22,function: 0000029970D1E028,92,,ThugGunner,80,Male,Joey,12,9,true,76,2,14,,Thugs,75,,+ defense perks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,true,Stormer,UnitData,0,60,38,Thugs,ThugCutter,UI/EnemiesPortraits/ThugRecon,9,,53,,ThugGunner,91,Male,,0,2,true,96,2,11,,Thugs,61,,melee,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,true,Stormer,UnitData,0,60,38,Thugs,ThugCutter_Stronger,UI/EnemiesPortraits/ThugRecon,9,,53,,ThugGunner,91,Male,,0,5,true,96,2,11,,Thugs,91,,+ damage,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+79,true,Stormer,UnitData,0,60,38,Thugs,ThugCutter_Stronger_Elite,UI/EnemiesPortraits/ThugRecon,9,,88,,ThugGunner,91,Male,,0,8,true,96,2,11,,Thugs,91,,+ survivability,,,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,43,Thugs,ThugEnforcer,UI/EnemiesPortraits/ThugStormer,65,function: 0000029970FBE338,75,,ThugGunner,93,Male,Joey,0,3,true,69,2,33,,Thugs,95,,shotgun maniac,,function: 0000029970FBEC58,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,43,Thugs,ThugEnforcer_Stronger,UI/EnemiesPortraits/ThugStormer,65,function: 0000029970FC0420,75,,ThugGunner,93,Male,Joey,0,5,true,97,,33,,Thugs,95,,+ actions,,function: 0000029970FC03F0,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,true,Stormer,UnitData,0,100,43,Thugs,ThugEnforcer_Stronger_Elite,UI/EnemiesPortraits/ThugStormer,65,function: 0000029971BAB428,75,,ThugGunner,93,Male,Joey,0,8,true,97,,33,,Thugs,95,,+ damage,,function: 0000029971BAB768,Brute,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,66,Thugs,ThugGoon,UI/EnemiesPortraits/ThugSoldier,20,,50,,ThugGunner,30,Male,Joey,0,,true,66,1,0,,Thugs,50,,smg soldier,,,,,UI/EnemiesPortraits/Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,66,Thugs,ThugGoon_Stronger,UI/EnemiesPortraits/ThugSoldier,20,,50,,ThugGunner,63,Male,Joey,0,3,true,87,2,0,,Thugs,50,,+ actions,,,,,UI/EnemiesPortraits/Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Soldier,UnitData,0,50,66,Thugs,ThugGoon_Stronger_Elite,UI/EnemiesPortraits/ThugSoldier,20,,100,,ThugGunner,63,Male,Joey,0,6,true,87,2,0,,Thugs,50,,+ health,,,,,UI/EnemiesPortraits/Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Demolitions,UnitData,0,50,50,Thugs,ThugGrenadier,UI/EnemiesPortraits/ThugDemo,30,,61,,ThugGunner,30,Male,Joey,0,2,true,80,2,46,,Thugs,78,,grenades & shotgun,,,Skirmisher,,UI/EnemiesPortraits/Unknown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Demolitions,UnitData,0,50,50,Thugs,ThugGrenadier_Stronger,UI/EnemiesPortraits/ThugDemo,30,,61,,ThugGunner,30,Male,Joey,0,4,true,80,2,70,,Thugs,78,,+ damage,,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Demolitions,UnitData,0,50,50,Thugs,ThugGrenadier_Stronger_Elite,UI/EnemiesPortraits/ThugDemo,30,,61,,ThugGunner,30,Male,Joey,0,6,true,80,2,100,,Thugs,78,,+ damage,,,Skirmisher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,63,Thugs,ThugGunner,UI/EnemiesPortraits/ThugHeavy,20,,62,,ThugGunner,39,Male,Joey,0,2,true,77,2,0,,Thugs,82,,machinegun,,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,84,Thugs,ThugGunner_Stronger,UI/EnemiesPortraits/ThugHeavy,20,,62,,ThugGunner,39,Male,Joey,0,4,true,77,2,0,,Thugs,82,,+ accuracy,,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+30,true,Heavy,UnitData,0,85,84,Thugs,ThugGunner_Stronger_Elite,UI/EnemiesPortraits/ThugHeavy,20,,62,,ThugGunner,39,Male,Joey,0,7,true,77,2,0,,Thugs,82,,+ actions,,,HeavyGunner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,true,Marksman,UnitData,0,50,85,Thugs,ThugSniper,UI/EnemiesPortraits/ThugSniper,50,,49,,ThugGunner,62,Male,Joey,0,3,true,91,1,0,,Thugs,,,mobile sniper,,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+37,true,Marksman,UnitData,0,50,85,Thugs,ThugSniper_Stronger,UI/EnemiesPortraits/ThugSniper,50,,76,,ThugGunner,69,Male,Joey,0,5,true,91,1,0,,Thugs,81,,+ survivability,,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+55,true,Marksman,UnitData,0,50,85,Thugs,ThugSniper_Stronger_Elite,UI/EnemiesPortraits/ThugSniper,50,,49,,ThugGunner,62,Male,Joey,0,7,true,91,1,0,,Thugs,,,+ damage and actions,,,,true,,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,true,Demolitions,UnitData,0,50,43,Legion,LegionGrenadier_Tutorial,UI/EnemiesPortraits/LegionGrenadier,14,,40,,LegionRaider,30,Male,Russell,0,2,true,71,1,0,,Tutorial,53,,,,,Skirmisher,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+24,,Soldier,UnitData,0,50,40,Legion,LegionMarauder_Tutorial,UI/EnemiesPortraits/LegionRaider,10,,35,,LegionRaider,40,Male,Joey,0,,true,50,2,0,,Tutorial,40,,,,,,,UI/Enemies/LegionRaider,Overwatch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+40,,,UnitData,0,60,37,Legion,LegionRaider_WeakFlagHill,UI/EnemiesPortraits/LegionRaider,10,,30,,LegionRaider,0,Male,Joey,0,,true,50,1,0,,Tutorial,40,,,,,TutorialMinion,,UI/Enemies/LegionRaider,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+48,,Marksman,UnitData,0,50,55,Legion,LegionSniper_Tutorial,UI/EnemiesPortraits/LegionSniper,33,,33,,LegionRaider,45,Male,Joey,0,3,true,44,1,0,,Tutorial,41,,,,,,true,UI/Enemies/LegionRaider,PinDown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
