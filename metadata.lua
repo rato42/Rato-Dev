@@ -3,7 +3,7 @@ return PlaceObj('ModDef', {
 	'dependencies', {},
 	'id', "WxLXvdc",
 	'author', "rato",
-	'version', 398,
+	'version', 406,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -13,6 +13,7 @@ return PlaceObj('ModDef', {
 		"Code/extract_functions.lua",
 		"Code/extract_unit.lua",
 		"Code/fix_editor_enemysquads.lua",
+		"Code/rew_table_separator.lua",
 		"Code/PrintAttack.lua",
 		"Code/FirearmExec_debug.lua",
 		"Code/CheckIfChangedPatchingMethod.lua",
@@ -21,7 +22,7 @@ return PlaceObj('ModDef', {
 		"Code/Script.lua",
 	},
 	'default_options', {},
-	'saved', 1735503638,
-	'code_hash', 7023867998799840134,
+	'saved', 1735692042,
+	'code_hash', -5753029795748713675,
 	'affected_resources', {},
 })

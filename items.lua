@@ -27,6 +27,10 @@ return {
 			'CodeFileName', "Code/fix_editor_enemysquads.lua",
 		}),
 		PlaceObj('ModItemCode', {
+			'name', "rew_table_separator",
+			'CodeFileName', "Code/rew_table_separator.lua",
+		}),
+		PlaceObj('ModItemCode', {
 			'name', "PrintAttack",
 			'CodeFileName', "Code/PrintAttack.lua",
 		}),
