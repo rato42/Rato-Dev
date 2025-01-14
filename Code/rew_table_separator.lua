@@ -560,32 +560,35 @@ local chat_gpt_ideas = {
 
 local german = {
     'G3A3_1', 'G3A3Green_1', 'HK23E_1', 'HK33A2_1', 'P90_2', 'TAR21_1', 'HK53_1', 'HK23ECamo_1',
-    'UMP_1', 'USP_1', 'PSG1', 'G36'
+    'UMP_1', 'USP_1', 'PSG1', 'G36', 'HK21', 'MP5', 'MP5K'
 }
 
 local eastern_common = {
-    'Groza_1', 'RK95_1', 'RK62_1', 'SKS_1', 'Type56A_1', 'Type56B_1', 'Type56C_1', 'Type56D_1',
-    'PapovkaSKS_1', 'Papovka2SKS_1', 'PKM_1', 'RPD_1', 'VSK94_1', 'M76_1', 'PP91_1', 'M70_1',
-    'M70D_1', 'RPK74', 'DragunovSVD', 'AK74', 'AK47', 'AKSU'
+    'RK95_1', 'RK62_1', 'SKS_1', 'Type56A_1', 'Type56B_1', 'Type56C_1', 'Type56D_1', 'PapovkaSKS_1',
+    'Papovka2SKS_1', 'PKM_1', 'RPD_1', 'M76_1', 'PP91_1', 'M70_1', 'M70D_1', 'AK47'
+}
+local eastern_new = {'AK74', 'RPK74', 'DragunovSVD', 'AKSU', 'Groza_1', 'VSK94_1'}
+local eastern_special = {'AN94_1', 'VSS_1'}
+
+local western = {
+    'FNMinimi', 'M14SAW_AUTO', 'M16A2', 'AUG', 'FAMAS', 'M4Commando', 'M24Sniper', 'M41Shotgun'
 }
 
 local other = {
-    'M1911_1', 'B93RR_1', 'Glock17_1', 'MicroUZI_1', 'MAC11_1', 'GoldenGun', 'TexRevolver',
-    'LionRoar', 'ColtAnaconda', 'DesertEagle', 'UZI', 'Bereta92', 'HiPower', 'Glock18'
+    ----- Assault --------------------------------------------------------
+    'Galil', ---- SMG --------------------------------------------------------
+    'MicroUZI_1', 'MAC11_1', 'UZI',
+    ---- Revolver --------------------------------------------------------
+    'ColtAnaconda', ----- Pistol --------------------------------------------------------
+    'DesertEagle', 'Bereta92', 'Glock18', 'M1911_1', 'B93RR_1', 'Glock17_1'
 }
-
-local eastern_special = {'AN94_1', 'VSS_1', 'Galil', 'Galil_FlagHill'}
 
 local old_war = {
     'Mosin_1', 'Delisle_1', 'VigM2_1', 'StenMK2_1', 'STG44R_1', 'P08_1', 'M1Garand_2', 'Gewehr43_1',
-    'Gewehr98', 'MP40', 'MG42'
+    'Gewehr98', 'MP40', 'MG42', 'HiPower', 'Winchester1894', 'Auto5', 'DoubleBarrelShotgun'
 }
 
-local civilian = {'SteyrScout_1', 'SSG69_1', 'M24Sniper', 'Winchester1894'}
+local civilian = {'SteyrScout_1', 'SSG69_1', 'AR15', 'M14SAW'}
 
-local unassigned = {
-    'BarretM82', 'HK21', 'FNMinimi', 'BrowningM2HMG', 'M14SAW', 'M14SAW_AUTO', 'M16A2', 'AR15',
-    'AUG', 'FAMAS', 'M4Commando', 'MP5', 'MP5K', 'M41Shotgun', 'Auto5', 'Auto5_quest', 'AA12',
-    'DoubleBarrelShotgun'
-}
+local end_game = {'BarretM82', 'AA12'}
 
