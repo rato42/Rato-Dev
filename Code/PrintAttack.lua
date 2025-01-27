@@ -50,6 +50,9 @@ function OnMsg.OnAttack(unit, action, target, results, attack_args)
 
     local info = {
         ['Attacker'] = unit.session_id,
+        ['Target'] = target.session_id,
+        ["Distance"] = dist,
+        ['Weapon'] = results.weapon.class,
         ['AP'] = unit.ActionPoints,
         ["Aim Level"] = results.aim,
         ['Action ID'] = action.id,

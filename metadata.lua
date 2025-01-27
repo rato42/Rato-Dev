@@ -3,7 +3,7 @@ return PlaceObj('ModDef', {
 	'dependencies', {},
 	'id', "WxLXvdc",
 	'author', "rato",
-	'version', 412,
+	'version', 414,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -22,7 +22,7 @@ return PlaceObj('ModDef', {
 		"Code/Script.lua",
 	},
 	'default_options', {},
-	'saved', 1736830145,
-	'code_hash', 3108649756074156610,
+	'saved', 1737960880,
+	'code_hash', 3719436475809443900,
 	'affected_resources', {},
 })
