@@ -7,6 +7,10 @@ return {
 			'CodeFileName', "Code/ForceDev.lua",
 		}),
 		PlaceObj('ModItemCode', {
+			'name', "ForceShowCTH",
+			'CodeFileName', "Code/ForceShowCTH.lua",
+		}),
+		PlaceObj('ModItemCode', {
 			'name', "magazine_check",
 			'CodeFileName', "Code/magazine_check.lua",
 		}),
@@ -50,6 +54,10 @@ return {
 	PlaceObj('ModItemCode', {
 		'name', "Script1",
 		'CodeFileName', "Code/Script1.lua",
+	}),
+	PlaceObj('ModItemCode', {
+		'name', "RATOAI_WORKSHOP",
+		'CodeFileName', "Code/RATOAI_WORKSHOP.lua",
 	}),
 	PlaceObj('ModItemCode', {
 		'CodeFileName', "Code/Script.lua",

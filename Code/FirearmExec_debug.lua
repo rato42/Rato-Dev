@@ -177,6 +177,7 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
 
     local lowChanceShot
     local base_weapon_damage = 0
+
     for attackIdx, attack in ipairs(attacks) do
         local attackArg = attackArgs[attackIdx]
         local fx_action = attackArg.fx_action
@@ -184,12 +185,17 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
             BulletHellOverwriteShots(attack)
         end
         local shots_per_animation = Min(3, #attack.shots)
+
         if action.id == "BurstFire" or action.id == "MGBurstFire" then
+
             shots_per_animation = #attack.shots
         end
+
         for i, shot in ipairs(attack.shots) do
             -- shot visuals
+
             attack.weapon:FireBullet(self, shot, shot_threads, results, attackArg)
+
             if attackArg.single_fx then
                 fx_action = ""
             end
@@ -203,16 +209,16 @@ function Unit:ExecFirearmAttacks(action, cost_ap, attack_args, results)
             elseif attackIdx < #attacks then
                 Sleep(MulDivRound(self:GetAnimDuration() / shots_per_animation, 30, 100))
             end
-            if IsMerc(self) and attack.target_hit then
-                if attack.chance_to_hit <= 20 then
-                    lowChanceShot = true
-                end
+        end
+        if IsMerc(self) and attack.target_hit then
+            if attack.chance_to_hit <= 20 then
+                lowChanceShot = true
             end
         end
+
         attack.weapon:FireSpread(attack, attackArg) -- deal the area damage, if any
         base_weapon_damage = base_weapon_damage + attack.weapon.Damage
     end
-
     -- additional damage (e.g. from DualShot perk)
     for _, packet in ipairs(results.extra_packets) do
         if IsValidTarget(packet.target) then
