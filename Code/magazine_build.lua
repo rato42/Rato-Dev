@@ -1,98 +1,100 @@
 local magazineData = {
-    {
-        id = "B93RR_1",
-        magsize = 20,
-        mag_mod = "MagNormal",
-        ancestor_id = "GlockMagazine",
-        generate_extended = true
-    }, {
-        id = "USP_1",
-        magsize = 12,
-        mag_mod = "MagNormal",
-        ancestor_id = "GlockMagazine",
-        custom_icon = 'Mod/Dau6w/Images/usp_mag_def.png',
-        generate_extended = true,
-        extended_custom_icon = 'Mod/Dau6w/Images/usp_mag_ex.png'
-    }, {
-        id = "VikingMP446_1",
-        magsize = 10,
-        mag_mod = "MagNormal",
-        ancestor_id = "GlockMagazine",
-        generate_extended = true
-    }, {
-        id = "PKM_1",
-        magsize = 100,
-        mag_mod = "MagLarger",
-        ancestor_id = "HKG3MagazineLarger",
-        custom_icon = 'Mod/Dau6w/Images/pkm_mag_def.png'
-    }, {id = "RPD_1", magsize = 100, mag_mod = "MagLarger", ancestor_id = "AK47MagazineMagLarger"},
-    {id = "P90_2", magsize = 50, mag_mod = "MagNormal", ancestor_id = "MP5MagazineLarge"}, {
-        id = "Gewehr43_1",
-        magsize = 10,
-        mag_mod = "MagNormal",
-        ancestor_id = "SVDMagazine",
-        generate_extended = true
-    }, {
-        id = "P08_1",
-        magsize = 8,
-        mag_mod = "MagNormal",
-        ancestor_id = "GlockMagazine",
-        generate_extended = true
-    }, {
-        id = "M1911_1",
-        magsize = 7,
-        mag_mod = "MagNormal",
-        ancestor_id = "DesertEagleMagazine",
-        generate_extended = true,
-        extended_custom_icon = 'Mod/Dau6w/Images/M1911_Mag_ext.png'
-    }, {id = "M76_1", magsize = 10, mag_mod = "MagNormal", ancestor_id = "MP5Magazine"},
-    {id = "MAC11_1", magsize = 32, mag_mod = "MagNormal", ancestor_id = "MP40Magazine"}, {
-        id = "MicroUZI_1",
-        magsize = 20,
-        mag_mod = "MagNormal",
-        ancestor_id = "UZIMagazine",
-        generate_extended = true,
-        extended_custom_icon = 'Mod/Dau6w/Images/MicroUZI_Mag_ext.png'
-    }, {
-        id = "PP91_1",
-        magsize = 20,
-        mag_mod = "MagNormal",
-        ancestor_id = "MP5Magazine",
-        generate_extended = true
-    }, {id = "VigM2_1", magsize = 32, mag_mod = "MagNormal", ancestor_id = "MP40Magazine"},
-    {id = "Delisle_1", magsize = 7, mag_mod = "MagNormal", ancestor_id = "DesertEagleMagazine"}, {
-        id = "SSG69_1",
-        magsize = 5,
-        mag_mod = "MagNormal",
-        ancestor_id = "SVDMagazine",
-        custom_icon = 'Mod/KKh3Yhf/Images/SSG69_Mag_def_icon.png',
-        generate_extended = true
-    }, -- { id = "HK23ECamo_1", magsize = 100, mag_mod = "MagLarger", ancestor_id = "HKG3MagazineLarger" },
-    {
-        id = "HK23E_1",
-        magsize = 100,
-        mag_mod = "MagLarger",
-        ancestor_id = "HKG3MagazineLarger",
-        shared_weapons_id_table = {"HK23ECamo_1"}
-    }, {
-        id = "SteyrScout_1",
-        magsize = 5,
-        mag_mod = "MagNormal",
-        ancestor_id = "SVDMagazine",
-        custom_icon = 'Mod/Dau6w/Images/Scout_mag_def.png'
-    }, {
-        id = "StenMK2_1",
-        magsize = 32,
-        mag_mod = "MagNormal",
-        ancestor_id = "MP40Magazine",
-        custom_icon = 'Mod/Dau6w/Images/Sten_mag_def.png'
-    }, {id = "STG44R_1", magsize = 30, mag_mod = "MagNormal", ancestor_id = "AK47Magazine"}, {
-        id = "UMP_1",
-        magsize = 30,
-        mag_mod = "MagNormal",
-        ancestor_id = "MP40Magazine",
-        custom_icon = 'Mod/Dau6w/Images/UMP_mag_def.png'
-    }
+    -- {
+    --     id = "B93RR_1",
+    --     magsize = 20,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "GlockMagazine",
+    --     generate_extended = true
+    -- }, {
+    --     id = "USP_1",
+    --     magsize = 12,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "GlockMagazine",
+    --     custom_icon = 'Mod/Dau6w/Images/usp_mag_def.png',
+    --     generate_extended = true,
+    --     extended_custom_icon = 'Mod/Dau6w/Images/usp_mag_ex.png'
+    -- }, {
+    --     id = "VikingMP446_1",
+    --     magsize = 10,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "GlockMagazine",
+    --     generate_extended = true
+    -- }, {
+    --     id = "PKM_1",
+    --     magsize = 100,
+    --     mag_mod = "MagLarger",
+    --     ancestor_id = "HKG3MagazineLarger",
+    --     custom_icon = 'Mod/Dau6w/Images/pkm_mag_def.png'
+    -- }, {id = "RPD_1", magsize = 100, mag_mod = "MagLarger", ancestor_id = "AK47MagazineMagLarger"},
+    -- {id = "P90_2", magsize = 50, mag_mod = "MagNormal", ancestor_id = "MP5MagazineLarge"}, {
+    --     id = "Gewehr43_1",
+    --     magsize = 10,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "SVDMagazine",
+    --     generate_extended = true
+    -- }, {
+    --     id = "P08_1",
+    --     magsize = 8,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "GlockMagazine",
+    --     generate_extended = true
+    -- }, {
+    --     id = "M1911_1",
+    --     magsize = 7,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "DesertEagleMagazine",
+    --     generate_extended = true,
+    --     extended_custom_icon = 'Mod/Dau6w/Images/M1911_Mag_ext.png'
+    -- }, {id = "M76_1", magsize = 10, mag_mod = "MagNormal", ancestor_id = "MP5Magazine"},
+    -- {id = "MAC11_1", magsize = 32, mag_mod = "MagNormal", ancestor_id = "MP40Magazine"}, {
+    --     id = "MicroUZI_1",
+    --     magsize = 20,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "UZIMagazine",
+    --     generate_extended = true,
+    --     extended_custom_icon = 'Mod/Dau6w/Images/MicroUZI_Mag_ext.png'
+    -- }, {
+    --     id = "PP91_1",
+    --     magsize = 20,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "MP5Magazine",
+    --     generate_extended = true
+    -- }, {id = "VigM2_1", magsize = 32, mag_mod = "MagNormal", ancestor_id = "MP40Magazine"},
+    -- {id = "Delisle_1", magsize = 7, mag_mod = "MagNormal", ancestor_id = "DesertEagleMagazine"}, {
+    --     id = "SSG69_1",
+    --     magsize = 5,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "SVDMagazine",
+    --     custom_icon = 'Mod/KKh3Yhf/Images/SSG69_Mag_def_icon.png',
+    --     generate_extended = true
+    -- }, -- { id = "HK23ECamo_1", magsize = 100, mag_mod = "MagLarger", ancestor_id = "HKG3MagazineLarger" },
+    -- {
+    --     id = "HK23E_1",
+    --     magsize = 100,
+    --     mag_mod = "MagLarger",
+    --     ancestor_id = "HKG3MagazineLarger",
+    --     shared_weapons_id_table = {"HK23ECamo_1"}
+    -- }, {
+    --     id = "SteyrScout_1",
+    --     magsize = 5,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "SVDMagazine",
+    --     custom_icon = 'Mod/Dau6w/Images/Scout_mag_def.png'
+    -- }, {
+    --     id = "StenMK2_1",
+    --     magsize = 32,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "MP40Magazine",
+    --     custom_icon = 'Mod/Dau6w/Images/Sten_mag_def.png'
+    -- }, {id = "STG44R_1", magsize = 30, mag_mod = "MagNormal", ancestor_id = "AK47Magazine"}, {
+    --     id = "UMP_1",
+    --     magsize = 30,
+    --     mag_mod = "MagNormal",
+    --     ancestor_id = "MP40Magazine",
+    --     custom_icon = 'Mod/Dau6w/Images/UMP_mag_def.png'
+    -- },
+    {id = "AR10std", magsize = 20, mag_mod = "MagNormal", ancestor_id = "FNFALMagazine"}
+
 }
 
 function check_expandedmag()

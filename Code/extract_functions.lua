@@ -1,4 +1,4 @@
-local mod_to_extract = "KKh3Yhf"
+local mod_to_extract = CurrentModId
 function extract_prop()
     local modDef = Mods[CurrentModId]
     local csv_filename = modDef.path .. "/" .. mod_to_extract .. "_Extracted.csv"
@@ -38,6 +38,7 @@ function extract_prop()
 
         if is_array then
             -- Processa como array (omitindo as chaves)
+
             for _, v in ipairs(tbl) do
                 table.insert(result, stringifyTable(v)) -- Recursão para tabelas aninhadas
             end
@@ -49,6 +50,7 @@ function extract_prop()
                 local value = stringifyTable(v) -- Recursão para tabelas aninhadas
                 table.insert(result, key .. " = " .. value)
             end
+
             return "{" .. table.concat(result, ", ") .. "}"
         end
     end

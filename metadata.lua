@@ -3,7 +3,7 @@ return PlaceObj('ModDef', {
 	'dependencies', {},
 	'id', "WxLXvdc",
 	'author', "rato",
-	'version', 482,
+	'version', 529,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -22,9 +22,24 @@ return PlaceObj('ModDef', {
 		"Code/Script1.lua",
 		"Code/RATOAI_WORKSHOP.lua",
 		"Code/Script.lua",
+		"InventoryItem/NewInventoryItem.lua",
+		"InventoryItem/NewInventoryItem_copy.lua",
+		"Code/Script2.lua",
 	},
 	'default_options', {},
-	'saved', 1739501613,
-	'code_hash', 8732212946933305222,
-	'affected_resources', {},
+	'has_data', true,
+	'saved', 1740150357,
+	'code_hash', -4493546210446295500,
+	'affected_resources', {
+		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "NewInventoryItem",
+			'ClassDisplayName', "Inventory item",
+		}),
+		PlaceObj('ModResourcePreset', {
+			'Class', "InventoryItemCompositeDef",
+			'Id', "NewInventoryItem_copy",
+			'ClassDisplayName', "Inventory item",
+		}),
+	},
 })

@@ -101,8 +101,8 @@ function place_hipfire_cth()
                                                     opportunity_attack, weapon1, weapon2, metaText)
 
             -- Base Penalty Adjustments
-            local base_penal = calculate_base_penalty(dist, const.Combat.Hipfire_BasePenalty)
-            local hip_penal = Min(0, MulDivRound(dist, const.Combat.HipFireMaxPenalty, const.Combat
+            local base_penal = calculate_base_penalty(dist, const.Combat.Hipfire.BasePenalty)
+            local hip_penal = Min(0, MulDivRound(dist, const.Combat.Hipfire.MaxPenalty, const.Combat
                                                      .Hipfire_MaxDistforPenalty * const.SlabSizeX))
 
             hip_penal = MulDivRound(hip_penal, reflex_scaling * penalty * 100, 100) + base_penal
